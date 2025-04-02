@@ -20,13 +20,13 @@
 							<div>
 								<ul class="styled">
 									<li class="active"><a href="services.php">All services</a></li>
-									<li><a href="clearance.php">Clearing and Forwarding</a></li>
-									<li><a href="road-trucking.php">Road Trucking Transport Services</a></li>
+									<li><a href="potato.php">Potato</a></li>
+									<li><a href="Grains.php">Grains</a></li>
 									
-									<li><a href="air-freight.php">AIR FREIGHT</a></li>
-									<li><a href="goods.php">Import and Export of goods</a></li>
-									<li><a href="warehousing.php">warehousing</a></li>
-									<li><a href="supply-chain-management.php">Supply chain</a></li>
+									<li><a href="Dairy_Product.php">Dairy Products</a></li>
+									
+									<li><a href="fruits.php">Fruits</a></li>
+									
 								</ul>
 							</div>
 						</div>
@@ -35,42 +35,30 @@
 						<div class="row services">
 							<div class="service-item col-xs-6 col-sm-4 col-md-4 col-lg-4 wow zoomIn" data-wow-delay="0.3s">
 								<img class="full-width" src="media/3-column-info/4.jpg" alt="Img">
-								<h4>CLEARANCE & FORWARDING</h4>
+								<h4>Potato</h4>
 								<p>Customs clearance,rules and processes can be confusing in Kenya but our goal is make customs brokerage as easy as possible.</p>
-								<a class="btn btn-success btn-sm" href="clearance.php">READ MORE</a>
+								<a class="btn btn-success btn-sm" href="potato.php">READ MORE</a>
 							</div>
 							<div class="service-item col-xs-6 col-sm-4 col-md-4 col-lg-4 wow zoomIn" data-wow-delay="0.3s">
 								<img class="full-width" src="media/3-column-info/8.jpg" alt="Img">
-								<h4>ROAD TRUCKING</h4>
+								<h4>Grains</h4>
 								<p>We provide a reasonable yet comprehensive transportation network within East and Central Africa from the port of Mombasa.</p>
-								<a class="btn btn-success btn-sm" href="road-trucking.php">READ MORE</a>
+								<a class="btn btn-success btn-sm" href="Grains.php">READ MORE</a>
 							</div>
 							<div class="service-item col-xs-6 col-sm-4 col-md-4 col-lg-4 wow zoomIn" data-wow-delay="0.3s">
 								<img class="full-width" src="media/3-column-info/5.jpg" alt="Img">
-								<h4>AIR FREIGHT</h4>
+								<h4>Dairy Products</h4>
 								<p>We are able to offer international coverage on air freight and also assist in interconnections of flights schedules for Transit Cargo. </p>
-								<a class="btn btn-success btn-sm" href="air-freight.php">READ MORE</a>
+								<a class="btn btn-success btn-sm" href="Dairy_Products.php">READ MORE</a>
 							</div>
-							<div class="service-item col-xs-6 col-sm-4 col-md-4 col-lg-4 wow zoomIn" data-wow-delay="0.3s">
-								<img class="full-width" src="media/3-column-info/7.jpg" alt="Img">
-								<h4>IMPORTS & EXPORTS OF GOODS</h4>
-								<p> Zeel has wide experience in handling Imports and Exports in Kenya, South Sudan and other adjoining COMESA countries.</p>
-								<a class="btn btn-success btn-sm" href="goods.php">READ MORE</a>
-							</div>
+							
 							<div class="service-item col-xs-6 col-sm-4 col-md-4 col-lg-4 wow zoomIn" data-wow-delay="0.3s">
 								<img class="full-width" src="media/3-column-info/8.jpg" alt="Img">
-								<h4>WAREHOUSING</h4>
+								<h4>Fruits</h4>
 								<p> We offer our fleet to customers for local deliveries in times of need where no international movement is relevant. </p>
-								<a class="btn btn-success btn-sm" href="warehousing.php">READ MORE</a>
+								<a class="btn btn-success btn-sm" href="fruits.php">READ MORE</a>
 							</div>
-							<div class="service-item col-xs-6 col-sm-4 col-md-4 col-lg-4 wow zoomIn" data-wow-delay="0.3s">
-								<img class="full-width" src="media/3-column-info/4.jpg" alt="Img">
-                                <br>
-								<h4>SUPPLY CHAIN CONSULTANCY</h4>
-								<p>We provide complete supply chain management solutions tailored to fit your needs through use of Technology to improve efficiency  </p>
-                               
-								<a class="btn btn-success btn-sm" href="supply-chain-management.php">READ MORE</a>
-							</div>
+							
 							
 							
 						</div>

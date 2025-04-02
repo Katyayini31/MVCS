@@ -14,12 +14,12 @@
 
 			<div class="container-fluid inner-offset">
 				<div class="hgroup text-center wow zoomIn" data-wow-delay="0.3s">
-					<h2>FOR ALL YOUR LOGISTICS NEEDS</h2>
-					<h1>ZEEL LOGISTICS -    Service Delivery with Diligence </h1>
+					
+					<h1>MAA VAISHNAVI COLD STORAGE SERVICE </h1>
 				</div>            
 				<ul class="nav nav-tabs wow fadeIn" data-wow-delay="0.3s" id="myTab">
 					<li class="active"><a href="#tab1" data-toggle="tab">WHY CHOOSE US</a></li>
-					<li><a href="#tab2" data-toggle="tab">OUR STRENGTHS</a></li>
+					<li><a href="#tab2" data-toggle="tab">VISION & MISSION</a></li>
 					<li><a href="#tab3" data-toggle="tab">OUR QUALITY POLICY</a></li>
 				</ul>
 
@@ -30,14 +30,17 @@
 								<img class="full-width" src="media/images/1.jpg" alt="Img">
 							</div>
 							<div class="col-sm-7">
-								<p><strong style="font-size:16px;">Zeel Logistics is a well-established procurement and logistics firm set up to offer back to back supply chain solutions.</strong></p>
-								<p>The dynamic changes experienced in the supply chain industry require new ideas and approach. Efficient and effective solutions are however not realized by immediate invasions but through a combination of experience and expertise from diverse situations and skillfully tailoring them to specific environments.</p>
-                                	<p>Our vision is to offer world-class procurement and logistics services making valued and measurable With today’s organizations facing considerable challenges in their attempts to attain competitive advantage from their transport & logistics solutions, the disparity in experience, skills and support services across geographically dispersed sites can reduce operational effectiveness and increase costs.</p><p>Organization’s therefore need to have single logistics partners that can advise and manage their transport and logistics solutions on local scale thereby giving them a one stop for all the operations solutions.
+								<p><strong style="font-size:16px;">Why Choose Us for Cold Storage Solutions?</strong></p>
+								<p>At Maa Vaishnavi Cold Storage, we provide reliable and secure cold storage solutions designed to preserve the quality of perishable goods. Here’s what sets us apart:</p>
+                                	<p>
+										<ul>
+											<li>Prime Location: Conveniently situated in a prime area, ensuring easy access for farmers, traders, and businesses.</li>
+											<li>Advanced Temperature & Humidity Control: Unlike competitors, we cater to both humidity-controlled and negative temperature-controlled storage needs, ideal for a wide range of products.</li>
+											<li>24/7 Monitoring & Security: Our facility is equipped with round-the-clock staff supervision, real-time machine monitoring, and CCTV surveillance, ensuring the safety and integrity of stored goods.</li>
+                                        </ul>      
                                 </p>
-                                <p>
-                                    We operate on a service and budget agreement based on client’s requirement. Our strategic services are well implemented to ensure that they are value adding hence meeting an organization` objective as opposed to logistics being a cost center. Our vision is to offer world-class procurement and logistics services making valued and measurable contribution towards and organizations performance in concert with its strategic direction and business imperative.
+								<p>With cutting-edge infrastructure and a commitment to excellence, we offer a secure and efficient cold storage solution tailored to your needs.</p>
                                 
-                                </p>
 								
 							</div>
 						</div>
@@ -48,19 +51,17 @@
 								<img class="full-width" src="media/images/1.jpg" alt="Img">
 							</div>
 							<div class="col-sm-7 text-block">
-								<p><strong>Zeel Logistics is a well-established procurement and logistics firm set up to offer back to back supply chain solutions. The dynamic changes experienced in the supply chain industry require new ideas and approach.</strong></p>
-								<p> Zeel Logistics endeavors to provide our customers with world-class service quality; we have carefully invested our resources to the service areas that matter most to our customers, this is why we are able to provide you with the unique service.
-                                </p>
-                                <p>
-                                    Zeel logistics has employed the best staff in its logistics operation to ensure that service provided is above the industry’s best practices</p>
-                                
+								<p><strong>Vision</strong></p>
+								<p>To be the leading cold storage and warehousing facility, known for its advanced technology, reliability, and commitment to preserving the quality of perishable goods. We aim to provide a secure and efficient storage solution that supports businesses, farmers, and traders while ensuring the highest standards of hygiene and safety.</p>
+								<p><strong>Mission</strong></p>
 								<p>
-                                    We integrate our experience of many similar challenges in a pragmatic way to ensure that the core
-                                    objective of supply chain, which is adding value to the organization, is achieved. Our services are
-                                    differentiated due to current business trends and we offer unmatched transparency when dealing with our
-                                    clients to ensure that total cost of acquisitions of any service or commodity matches the market trends.
-                                
-                                </p>
+									<ul>
+										<li>To offer state-of-the-art cold storage solutions with both humidity-controlled and negative temperature-controlled storage, catering to diverse product needs.</li>
+										<li>To ensure 24/7 monitoring through expert staff and CCTV surveillance, maintaining the safety and quality of stored goods.</li>
+										<li>To provide cost-effective and efficient warehousing for grains, dairy products, fruits, and vegetables with optimal storage conditions.</li>
+										<li> To continuously improve and innovate storage technologies, delivering best-in-class services while supporting the supply chain needs of our customers.</li>
+                                    </ul>
+								</p>
 							</div>
 						</div>
 					</div>

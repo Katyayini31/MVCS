@@ -18,12 +18,12 @@
 	                    <div class="col-sm-2 wow zoomIn" data-wow-delay="0.3s">
                     		<h4>WHAT WE OFFER</h4>
 	                        <nav>
-                        		<a href="clearance.php">Clearance & Forwarding</a>
-	                            <a href="road-trucking.php">Road Transportation</a>
-	                            <a href="air-freight.php">Air Freight</a>
-	                            <a href="goods.php">Import & Exports of Goods</a>
-	                            <a href="warehousing.php">Warehousing</a>
-	                            <a href="supply-chain-management.php">Supply Chain</a>
+                        		<a href="potato.php">Potato</a>
+	                            <a href="Grains.php">Grains</a>
+	                            <a href="Dairy_Products.php">Dairy Products</a>
+	                            
+	                            <a href="fruits.php">Fruits</a>
+	                           
 	                        </nav>
 	                    </div>
 	                    <div class="col-sm-2 wow zoomIn" data-wow-delay="0.3s">

@@ -37,12 +37,12 @@
 							<li class="dropdown">
 								<a data-toggle="dropdown" class="dropdown-toggle border-hover-color1" href="">OUR SERVICES <i class="fa fa-angle-down"></i></a>
 								<ul class="dropdown-menu">
-									                <li><a href="clearance.php">Clearance &amp; Forwading</a></li> 
-                                                    <li><a href="road-trucking.php">Road Trucking</a></li>
-                                                    <li><a href="air-freight.php">Air freight</a></li>
-                                                    <li><a href="goods.php">Import &amp; Export of goods</a></li>
-                                                    <li><a href="warehousing.php">Warehousing</a></li>
-                                                    <li><a href="supply-chain-management.php">Supply Chain</a></li>
+									                <li><a href="potato.php">Potato</a></li> 
+                                                    <li><a href="Grains.php">Grains</a></li>
+                                                    <li><a href="Dairy_Products.php">Dairy Products</a></li>
+                                                    
+                                                    <li><a href="fruits.php">Fruits</a></li>
+                                                   
 								</ul>
 							</li>
 							<li><a href="about-us.php">ABOUT US</a></li>

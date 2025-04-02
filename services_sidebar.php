@@ -3,12 +3,12 @@
 							<div class="wow slideInUp" data-wow-delay="0.3s">
 								<ul class="styled">
 									<li class="active"><a href="services.php">All services</a></li>
-									                <li><a href="clearance.php">Clearance &amp; Forwading</a></li> 
-                                                    <li><a href="road-trucking.php">Road Trucking</a></li>
-                                                    <li><a href="air-freight.php">Air freight</a></li>
-                                                    <li><a href="goods.php">Import &amp; Export of goods</a></li>
-                                                    <li><a href="warehousing.php">Warehousing</a></li>
-                                                    <li><a href="supply-chain-management.php">Supply Chain</a></li>
+									                <li><a href="potato.php">Potato</a></li> 
+                                                    <li><a href="Grains.php">Grains</a></li>
+                                                    <li><a href="Dairy_Products.php">Dairy Products</a></li>
+                                                    
+                                                    <li><a href="fruits.php">Fruits</a></li>
+                                                    
 								</ul>
 							</div>
 							<div class="wow slideInUp" data-wow-delay="0.3s">

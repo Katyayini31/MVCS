@@ -46,10 +46,10 @@
 	                                <a class="next"><i class="fa fa-angle-right"></i></a>
 	                            </div>
 	                            <div style="display:table-cell;">
-	                                <h1>CLEARANCE AND FORWARDING</h1>
+	                                <h1>Potato</h1>
 	                            </div>
 	                        </div>
-	                        <p>Customs clearance,rules and processes can be confusing in Kenya but our goal is make customs brokerage as easy as possible for you.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
+	                        
 	                    </div>
 	                </div>
 	            </div>
@@ -63,10 +63,10 @@
 	                                <a class="next"><i class="fa fa-angle-right"></i></a>
 	                            </div>
 	                            <div style="display:table-cell;">
-	                                <h1 >ROAD TRUCKING</h1>
+	                                <h1 >GrainsG</h1>
 	                            </div>
 	                        </div>
-	                        <p>We provide a reasonable yet comprehensive transportation network within East Africa and will be in a position to handle your transport needs.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
+	                        
 	                    </div>
 	                </div>
 	            </div>
@@ -80,57 +80,17 @@
 	                                <a class="next"><i class="fa fa-angle-right"></i></a>
 	                            </div>
 	                            <div style="display:table-cell;">
-	                                <h1>AIR FREIGHT</h1>
+	                                <h1>Dairy Products</h1>
 	                            </div>
 	                        </div>
 	                        <p>We are able to offer international coverage on air freight and also assist in interconnections of flights schedules for Transit Cargo.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
 	                    </div>
 	                </div>
 	            </div>
-                <div class="item">
-            		<img src="media/main-slider/1.jpg" alt="slider">
-	                <div class="container-fluid">
-	                    <div class="slider-content col-md-6 col-lg-6">
-	                        <div style="display:table;">
-	                            <div style="display:table-cell; width:100px; vertical-align:top;">
-	                                <a class="prev"><i class="fa fa-angle-left"></i></a>
-	                                <a class="next"><i class="fa fa-angle-right"></i></a>
-	                            </div>
-	                            <div style="display:table-cell;">
-	                                <h1> IMPORTS AND EXPORTS OF GOODS</h1>
-	                            </div>
-	                        </div>
-	                        <p>We undertake actual clearance at the border points, land and air and ensure that regulations are followed and correct tariffs are subjected to the goods.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
-	                    </div>
-	                </div>
-	            </div>
+                
 	        </div>
 	        
-	        <div class="container-fluid">
-        		<div class="row column-info block-content">
-            		<div class="col-sm-4 col-md-4 col-lg-4 wow fadeInLeft" data-wow-delay="3.3s">
-                		<img src="media/3-column-info/1.jpg" alt="slider">
-	                    <span></span>
-	                    <h3>FAST CARGO MOVEMENT</h3>
-	                    <p>We are able to marshall resources and more required cargo from origin to the required destination within the shortest time period.</p>
-	                    <a class="btn btn-default btn-sm" href="goods.php">READ MORE</a>
-	                </div>
-	                <div class="col-sm-4 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="3.3s">
-                		<img src="media/3-column-info/2.jpg" alt="Img">
-	                    <span></span>
-	                    <h3>FAST AIR FREIGHT</h3>
-	                    <p> we are able to offer international coverage on air freight and also assist in interconnections of flights schedules for Transit Cargo</p>
-	                    <a class="btn btn-default btn-sm" href="air-freight.php">READ MORE</a>
-	                </div>
-	                <div class="col-sm-4 col-md-4 col-lg-4 wow fadeInRight" data-wow-delay="3.3s">
-                		<img src="media/3-column-info/3.jpg" alt="Img">
-	                    <span></span>
-	                    <h3>GROUND SHIPPING</h3>
-	                    <p>We provide a reasonable yet comprehensive transportation network within East and Central Africa road from the Port.</p>
-	                    <a class="btn btn-default btn-sm" href="road-trucking.php">READ MORE</a>
-	                </div>
-	            </div>
-	        </div>
+	        
 	        
 	        <hr>
 	        <div class="big-hr color-1 wow zoomInUp" data-wow-delay="0.3s">
@@ -148,48 +108,36 @@
 	            </div>
 				<div class="row our-services">
             		<div class="col-sm-6 col-md-4 col-lg-4 wow zoomInLeft" data-wow-delay="0.3s">
-                		<a href="clearance.php">
+                		<a href="potato.php">
                     		<span><i class="glyph-icon flaticon-boats4"></i>
                             </span>
-                    		<h4>CLEARANCE AND FORWARDING</h4>
-	                        <p>Zeel has wide experience in handling Imports and Exports in Kenya, South Sudan and other </p>
+                    		<h4>Potato</h4>
+	                        
 	                    </a>
 	                </div>
 	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
-                		<a href="road-trucking.php">
+                		<a href="Grains.php">
                     		<span><i class="glyph-icon flaticon-railway1"></i></span>
-                    		<h4>Road Trucking</h4>
-	                        <p> The increased trade between countries has stimulated haulage by road. Goods can be carried</p>
+                    		<h4>Grains</h4>
+	                        
 	                    </a>
 	                </div>
 	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.3s">
-                		<a href="air-freight.php">
+                		<a href="Dairy_Products.php">
                     		<span><i class="glyph-icon flaticon-flying"></i></span>
-                    		<h4>INTERNATIONAL AIR FREIGHT</h4>
-	                        <p>Air Freight as a means of ferrying goods has its timely and security advantages and is the </p>
+                    		<h4>Dairy Products</h4>
+	                        
 	                    </a>
 	                </div>
-	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInLeft" data-wow-delay="0.3s">
-                		<a href="goods.php">
-                    		<span><i class="glyph-icon flaticon-package7"></i></span>
-                    		<h4>IMPORT AND EXPORT OF GOODS</h4>
-                            <p>Zeel has wide experience in handling Imports and Exports in Kenya, South Sudan and other </p>
-	                    </a>
-	                </div>
+	               
 	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
-                		<a href="warehousing.php">
+                		<a href="fruits.php">
                     		<span><i class="glyph-icon flaticon-garage1"></i></span>
-                    		<h4>WAREHOUSING</h4>
-                            <p>We offer our fleet to customers for local deliveries in times of need where no international</p>
+                    		<h4>Fruits</h4>
+                            
 	                    </a>
 	                </div>
-	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.3s">
-                		<a href="supply-chain-management.php">
-                    		<span><i class="glyph-icon flaticon-traffic-signal"></i></span>
-                    		<h4>SUPPLY CHAIN CONSULTANCY </h4>
-                            <p> Zeel is capable of assisting reviewing procurement organizations for best practices and </p>
-	                    </a>
-	                </div>
+	                
 	            </div>
 	        </div>
 	        
@@ -276,7 +224,7 @@
                 		<div class="col-sm-6 col-md-6 col-lg-6 one-news wow fadeInLeft" data-wow-delay="0.3s">
                     		<div style="background-image:url(media/3-column-info/2.jpg);">
                         		<div>
-                            		<a href="air-freight.php"><h3>AIR FREIGHT SERVICES</h3></a>
+                            		<a href="Dairy_Products.php"><h3>Dairy Products</h3></a>
 	                                
 	                            </div>
 	                        </div>
@@ -288,22 +236,12 @@
 	                            </div>
 	                            <div class="col-sm-6 col-md-6 col-lg-6">
 	                                <div>
-	                                    <a href="road-trucking.php"><h3>ROAD TRUCKING</h3></a>
+	                                    <a href="Grains.php"><h3>Grains</h3></a>
 	                                    
 	                                </div>
 	                            </div>
 	                        </div>
-	                        <div class="news-item row">
-	                            <div class="col-sm-6 col-md-6 col-lg-6">
-	                                <div style="background-image:url(media/3-column-info/4.jpg);"></div>
-	                            </div>
-	                            <div class="col-sm-6 col-md-6 col-lg-6">
-	                                <div>
-	                                    <a href="goods.php"><h3>IMPORTS & EXPORTS OF GOODS</h3></a>
-	                               
-	                                </div>
-	                            </div>
-	                        </div>
+	                        
 	                    </div>
 	                </div>
 	            </div>
