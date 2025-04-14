@@ -1,0 +1,108 @@
+.carousel-title {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    /* semi-transparent */
+    backdrop-filter: blur(6px);
+    /* glass effect */
+    padding: 12px 24px;
+    border-radius: 12px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease;
+}
+
+.carousel-title:hover {
+    transform: scale(1.05);
+    /* subtle hover effect */
+}
+
+.gallery-img {
+    height: 400px;
+    /* Set height same for all */
+    width: auto;
+    /* Optional: or set fixed width */
+    object-fit: cover;
+}
+
+.customised-services {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-image: url(../media/images/pic4.jpg)
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    /* 16:9 aspect ratio */
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background: #000;
+}
+
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn,
+.btn-success,
+.btn-lg {
+    background-color: #8D0B41 !important;
+}
+
+.custom-banner-img {
+    width: 100%;
+    max-height: 500px;
+    /* Optional limit */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.info-box {
+    flex: 1;
+    padding: 40px 20px;
+    color: #2196f3;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);
+    min-height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Specific Colors */
+.box-orange {
+    background-color: #f57c00;
+}
+
+.box-blue {
+    background-color: #81d4fa;
+}
+
+.box-purple {
+    background-color: #9575cd;
+}

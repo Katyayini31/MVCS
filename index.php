@@ -19,8 +19,9 @@
 	        
 	        
 	        <div id="owl-main-slider" class="owl-carousel enable-owl-carousel" data-single-item="true" data-pagination="false" data-auto-play="true" data-main-slider="true" data-stop-on-hover="true">
+	            
 	            <div class="item">
-            		<img src="media/main-slider/1.jpg" alt="slider">
+            		<img src="media/images/potato.jpg" alt="slider">
 	                <div class="container-fluid">
 	                    <div class="slider-content col-md-6 col-lg-6">
 	                        <div style="display:table;">
@@ -29,24 +30,8 @@
 	                                <a class="next"><i class="fa fa-angle-right"></i></a>
 	                            </div>
 	                            <div style="display:table-cell;">
-	                                <h1>SUPPLY CHAIN SOLUTIONS</h1>
-	                            </div>
-	                        </div>
-	                        <p>Specialized,organized and complete supply chain management solutions tailored to fit your needs. From planning and analysis to quality control.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
-	                    </div>
-	                </div>
-	            </div>
-	            <div class="item">
-            		<img src="media/main-slider/2.jpg" alt="slider">
-	                <div class="container-fluid">
-	                    <div class="slider-content col-md-6 col-lg-6">
-	                        <div style="display:table;">
-	                            <div style="display:table-cell; width:100px; vertical-align:top;">
-	                                <a class="prev"><i class="fa fa-angle-left"></i></a>
-	                                <a class="next"><i class="fa fa-angle-right"></i></a>
-	                            </div>
-	                            <div style="display:table-cell;">
-	                                <h1>Potato</h1>
+								<h1 class="carousel-title">POTATO</h1>
+								
 	                            </div>
 	                        </div>
 	                        
@@ -54,7 +39,7 @@
 	                </div>
 	            </div>
                 <div class="item">
-            		<img src="media/3-column-info/11.jpg" alt="slider">
+            		<img src="media/images/corn.jpg" alt="slider">
 	                <div class="container-fluid">
 	                    <div class="slider-content col-md-6 col-lg-6">
 	                        <div style="display:table;">
@@ -63,7 +48,7 @@
 	                                <a class="next"><i class="fa fa-angle-right"></i></a>
 	                            </div>
 	                            <div style="display:table-cell;">
-	                                <h1 >GrainsG</h1>
+	                                <h1 class="carousel-title">Grains</h1>
 	                            </div>
 	                        </div>
 	                        
@@ -71,7 +56,7 @@
 	                </div>
 	            </div>
                  <div class="item">
-            		<img src="media/3-column-info/10.jpg" alt="slider">
+            		<img src="media/images/milk.jpg" alt="slider">
 	                <div class="container-fluid">
 	                    <div class="slider-content col-md-6 col-lg-6">
 	                        <div style="display:table;">
@@ -80,10 +65,29 @@
 	                                <a class="next"><i class="fa fa-angle-right"></i></a>
 	                            </div>
 	                            <div style="display:table-cell;">
-	                                <h1>Dairy Products</h1>
+	                                <h1 class="carousel-title">Dairy</h1>
 	                            </div>
 	                        </div>
-	                        <p>We are able to offer international coverage on air freight and also assist in interconnections of flights schedules for Transit Cargo.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
+	                        
+	                    </div>
+	                </div>
+	            </div>
+				<div class="item">
+            		<img src="media/images/apple.jpg" alt="slider">
+	                <div class="container-fluid">
+	                    <div class="slider-content col-md-6 col-lg-6">
+	                        <div style="display:table;">
+	                            <div style="display:table-cell; width:100px; vertical-align:top;">
+	                                <a class="prev"><i class="fa fa-angle-left"></i></a>
+	                                <a class="next"><i class="fa fa-angle-right"></i></a>
+	                            </div>
+	                            <div style="display:table-cell;">
+	                                <h1 class="carousel-title">Fruits</h1>
+									
+
+	                            </div>
+	                        </div>
+	                        
 	                    </div>
 	                </div>
 	            </div>
@@ -93,90 +97,70 @@
 	        
 	        
 	        <hr>
-	        <div class="big-hr color-1 wow zoomInUp" data-wow-delay="0.3s">
-        		<div class="text-left" style="margin-right:40px;">
-            		<h2>We provide first class logistics services worldwide.</h2>
-            		<p>Zeel Logistics is a well-established supply chain solution's firm majoring in logistics and consultancy.</p>
-				</div>
+	        
+            		
+				
 	            <div><a class="btn btn-success btn-lg" href="contact.php">CONTACT US TODAY</a></div>
-	        </div>
+	        
 	        
 	        <div class="container-fluid block-content">
         		<div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
-            		<h1>OUR SERVICES</h1>
-            		<h2>We have wide network of offices in all major locations to help you with <br> the services we offer</h2>
+				<h1 style="font-size: 36px;text-decoration-thickness:medium ;"> “Protecting freshness from farm to
+				future.”</h1>
 	            </div>
-				<div class="row our-services">
-            		<div class="col-sm-6 col-md-4 col-lg-4 wow zoomInLeft" data-wow-delay="0.3s">
-                		<a href="potato.php">
-                    		<span><i class="glyph-icon flaticon-boats4"></i>
-                            </span>
-                    		<h4>Potato</h4>
-	                        
-	                    </a>
-	                </div>
-	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
-                		<a href="Grains.php">
-                    		<span><i class="glyph-icon flaticon-railway1"></i></span>
-                    		<h4>Grains</h4>
-	                        
-	                    </a>
-	                </div>
-	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.3s">
-                		<a href="Dairy_Products.php">
-                    		<span><i class="glyph-icon flaticon-flying"></i></span>
-                    		<h4>Dairy Products</h4>
-	                        
-	                    </a>
-	                </div>
-	               
-	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
-                		<a href="fruits.php">
-                    		<span><i class="glyph-icon flaticon-garage1"></i></span>
-                    		<h4>Fruits</h4>
-                            
-	                    </a>
-	                </div>
-	                
-	            </div>
+				<div class="image-box mt-4">
+                    <img src="media/images/frts.jpg" alt="Farm to Future" class="img-fluid custom-banner-img">
+                  </div>
+				
 	        </div>
 	        
-            	       
-	        	<div class="block-content inner-offset">
-				<div class="info-texts wow fadeIn" data-wow-delay="0.3s">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-sm-4 col-md-4 col-lg-4">
-								<p>We have wide network of offices in all major locations to help you with the services we offer</p>
-							</div>
-							<div class="col-sm-4 col-md-4 col-lg-4">
-								<p>With the help of our worldwide partners we are providing specialized services in Logistics solutions to our satisfied customers</p>
-							</div>
-							<div class="col-sm-4 col-md-4 col-lg-4">
-								<p>We provides comprehensive cargo care, cargo movement & project management</p>
-							</div>
-						</div>
-					</div>
-				</div>
+            	<!-- 🔴 Red Container with Text -->
+				<div
+				style="background-color:#1F024C; color:#F4F8D3; text-align: center; padding: 30px 20px; font-size: 24px; font-weight: bold;">
+				Ensuring consistent temperature and humidity control to maintain the quality of stored goods (like
+				dairy, meat, produce, or medicine).
+
+				Use of a proper inventory system (manual or software-based) to track what's stored, when it arrived, and
+				when it needs to go out.
+
+
+
 			</div>
-            
+
+			<!-- 🖼️ Five GIFs Section -->
+			<div
+				style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 30px; background-color: #ffecec;">
+				<img src="media/gif/fresh.gif" alt="GIF 5" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/potato.gif" alt="GIF 1" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/milk.gif" alt="GIF 2" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/wheat.gif" alt="GIF 3" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/fruit.gif" alt="GIF 4" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/cold.gif" alt="GIF 5" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/harvest.gif" alt="GIF 5" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/smart-farm.gif" alt="GIF 5" style="width: 100px; height: auto; border-radius: 12px;">
+			</div>
+
+
+       
+	        	
+				
+			       
 	        <div class="fleet-gallery block-content bg-image inner-offset">
         		<div class="container-fluid inner-offset">
 	                <div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
-	                    <h1>THE FLEETS GALLERY</h1>
-	                    <h2>we always use best & fastest fleets</h2>
+	                    <h1>THE GALLERY</h1>
+	                  
 	                </div>
 	                <div id="fleet-gallery" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true" data-min450="2" data-min600="2" data-min768="4">
-	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2013-07-13%2015.31.18.jpg" alt="Img"></div>
-                        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/20150313_162848.jpg" alt="Img"></div>
-	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2013-07-13%2015.31.51.jpg" alt="Img"></div>
-                        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/20150313_162851.jpg" alt="Img"></div>
-	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2013-07-13%2015.32.18.jpg" alt="Img"></div>
-                        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/20150313_162855.jpg" alt="Img"></div>
-	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2013-07-13%2015.38.28.jpg" alt="Img"></div>
-                        <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/20150313_162859.jpg" alt="Img"></div>
-	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2013-07-13%2017.33.33.jpg" alt="Img"></div>
-	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="media/fleet-gallery/2013-07-13%2015.34.05.jpg" alt="Img"></div>
+					<div class="wow rotateIn" data-wow-delay="0.3s"><img class="gallery-img" src="media/fleet-gallery/infra1.jpg"
+								alt="Img"></div>
+						<div class="wow rotateIn" data-wow-delay="0.3s"><img class="gallery-img" src="media/fleet-gallery/infra2.jpg"
+								alt="Img"></div>
+						<div class="wow rotateIn" data-wow-delay="0.3s"><img class="gallery-img" src="media/fleet-gallery/pkg.jpg"
+								alt="Img"></div>
+						<div class="wow rotateIn" data-wow-delay="0.3s"><img class="gallery-img" src="media/fleet-gallery/outside.jpg"
+								alt="Img"></div>
+						
 	                </div>
     			</div>
 	        </div>
@@ -187,78 +171,89 @@
 	        <div class="container-fluid block-content percent-blocks" data-waypoint-scroll="true">
         		<div class="row stats">
             		<div class="col-sm-6 col-md-3 col-lg-3">
-                		<div class="chart" data-percent="230">
-                    		<span><i class="fa fa-folder-open"></i></span>
-                    		<span class="percent"></span>Projects Done
+                		<div class="chart" data-percent="300+">
+                    		<span><img src="media/gif/farmer.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
+                    		<span class="percent">300+</span>Farmers Connected
 	                    </div>
 	                </div>
 	                <div class="col-sm-6 col-md-3 col-lg-3">
-                		<div class="chart" data-percent="68">
-                    		<span><i class="fa fa-users"></i></span>
-                    		<span class="percent"></span>Clients Worldwide
+                		<div class="chart" data-percent="30+">
+						<span><img src="media/gif/workers.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
+                    		<span class="percent">30+</span>Total Workers
 	                    </div>
 	                </div>
 	                <div class="col-sm-6 col-md-3 col-lg-3">
-                		<div class="chart" data-percent="16">
-                    		<span><i class="fa fa-truck"></i></span>
-                    		<span class="percent"></span>Owned Vehicles
+                		<div class="chart" data-percent="6000 MT">
+						<span><img src="media/gif/full-screen.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
+                    		<span class="percent">6000 MT</span>Total Capacity
 	                    </div>
 	                </div>
 	                <div class="col-sm-6 col-md-3 col-lg-3">
-                		<div class="chart" data-percent="46">
-                    		<span><i class="fa fa-male"></i></span>
-                    		<span class="percent"></span>People In Team
+                		<div class="chart" data-percent="8+">
+						<span><img src="media/gif/group.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
+                    		<span class="percent">8+</span>People In Team
 	                    </div>
 	                </div>
 	            </div>
 	        </div>
 	        
 	        <div class="block-content bg-image blog-section inner-offset">
-        		<div class="container-fluid">
-            		<div class="hgroup wow fadeInLeft" data-wow-delay="0.3s">
-	                    <h1>CUSTOMISED SERVICES</h1>
-	                    
-	                </div>
-	                <a class="btn btn-danger pull-right read-all-news wow fadeInRight" data-wow-delay="0.3s" href="services.php">VIEW ALL SERVICES</a>
-	                <div class="row">
-                		<div class="col-sm-6 col-md-6 col-lg-6 one-news wow fadeInLeft" data-wow-delay="0.3s">
-                    		<div style="background-image:url(media/3-column-info/2.jpg);">
-                        		<div>
-                            		<a href="Dairy_Products.php"><h3>Dairy Products</h3></a>
-	                                
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div class="col-sm-6 col-md-6 col-lg-6 two-news wow fadeInRight" data-wow-delay="0.3s">
-	                        <div class="news-item row">
-	                            <div class="col-sm-6 col-md-6 col-lg-6">
-	                                <div style="background-image:url(media/3-column-info/1.jpg);"></div>
-	                            </div>
-	                            <div class="col-sm-6 col-md-6 col-lg-6">
-	                                <div>
-	                                    <a href="Grains.php"><h3>Grains</h3></a>
-	                                    
-	                                </div>
-	                            </div>
-	                        </div>
-	                        
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
+    <div class="container-fluid">
+        <div class="hgroup wow fadeInLeft" data-wow-delay="0.3s">
+            <h1>GALLERY</h1>
+        </div>
+
+        <div class="row customised-services">
+            <!-- First Local Video -->
+            <div class="col-sm-6 col-md-6 col-lg-6 wow fadeInLeft mb-4" data-wow-delay="0.3s">
+                <div class="video-wrapper">
+                    <video controls>
+                        <source src="media/fleet-gallery/belt.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Second Local Video -->
+            <div class="col-sm-6 col-md-6 col-lg-6 wow fadeInRight mb-4" data-wow-delay="0.3s">
+                <div class="video-wrapper">
+                    <video controls>
+                        <source src="media/fleet-gallery/infra.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+
+       
+    
+
+
 	        
 	        <div class="container-fluid partners block-content">
 	            <div class="hgroup title-space wow fadeInLeft" data-wow-delay="0.3s">
-	                <h1>OUR partners</h1>
-	                <h2>PROVIDING WIDE RANGE OF TRANSPORT SERVICES AND MEANS OF TRANSPORT</h2>
+				<h1>OUR MANAGEMENT TEAM</h1>
+					<img src="media/gif/management-consulting.gif" alt="Icon"
+						style="width: 35px; height: 35px;">
 	            </div>
 	            <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true" data-min450="2" data-min600="2" data-min768="4">
-	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/1.png" alt="Img"></a></div>
-	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/2.png" alt="Img"></a></div>
-	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/3.png" alt="Img"></a></div>
-	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/4.png" alt="Img"></a></div>
-	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/1.png" alt="Img"></a></div>
-	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/2.png" alt="Img"></a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.3s" style=""><a href="#">
+				    <p  style="color: black;">Hariwansh Roy – Operations & Finance Head</p>
+                    <p  style="color: black;">With over 25 years of experience in business management, Hariwansh Roy plays a crucial role in overseeing daily operations, managing staff, and optimizing resources at Maa Vaishnavi Cold Storage. His expertise in finance and strategic planning ensures smooth workflow and long-term growth for the company.</p>
+				    </a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#">
+					<p  style="color: black;">Lakshmi Kumari – Operations & Infrastructure Lead</p>
+					<p  style="color: black;">A key member of our team, Lakshmi Kumari efficiently handles major day-to-day operations. With her innovative approach, she has been instrumental in enhancing the company’s infrastructure, improving efficiency, and ensuring seamless operations.</p>
+				    </a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#">
+				    <p  style="color: black;">Aashish – Technology & Innovation Associate</p>
+                    <p  style="color: black;">Currently pursuing his B.Tech, Aashish brings a fresh perspective with his knowledge of the latest technology and creative ideas. His contributions have led to significant reforms in the company, integrating modern solutions to enhance efficiency and service quality.</p>
+				    </a></div>
+	                
 	            </div>
 	        </div>
 	       

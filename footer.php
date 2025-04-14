@@ -4,8 +4,8 @@
         		<div class="container-fluid">
             		<div class="row block-content">
                			<div class="col-sm-4 wow zoomIn" data-wow-delay="0.3s">
-                    		 <img src="img/logo.png" width="200px" alt="Zeel Logistics"/>
-	                        <p>Zeel Logistics is a well-established supply chain solution's firm majoring in logistics and consultancy.</p>
+                    		 <img src="img/lo2.png" width="200px" alt="MVCS"/>
+	                        <p></p>
 	                        <div class="footer-icons">
 	                            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
 	                            <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
@@ -21,7 +21,6 @@
                         		<a href="potato.php">Potato</a>
 	                            <a href="Grains.php">Grains</a>
 	                            <a href="Dairy_Products.php">Dairy Products</a>
-	                            
 	                            <a href="fruits.php">Fruits</a>
 	                           
 	                        </nav>
@@ -40,14 +39,13 @@
                     		<h4>CONTACT INFO</h4>
 	                        Everyday is a new day for us and we work really hard to satisfy our customers everywhere.
 	                        <div class="contact-info">
-	                            <span><i class="fa fa-location-arrow"></i><strong>Zeel Logistics Ltd 
-</strong><br>Sifa Towers, Kilimani,Ring Road</span>
-	                            <span><i class="fa fa-phone"></i>+254 724 795 342 | +211 927 505 745 </span>
-	                            <span><i class="fa fa-envelope"></i>info@zeel.co.ke </span>
+	                            <span><i class="fa fa-location-arrow"></i><strong>
+</strong><br></span>
+	                            <span><i class="fa fa-phone"></i>+919931644512 | +918088754555</span>
+	                            <span><i class="fa fa-envelope"></i>mvcs.hl22@gmail.com </span>
 	                            <span><i class="fa fa-clock-o"></i>Mon - Sat  8.00 - 17.00</span>
 	                        </div>
 	                    </div>
 	                </div>
-             		<div class="copy text-right"><a id="to-top" href="#this-is-top"><i class="fa fa-chevron-up"></i></a>Created by <a href="#">Astute Tech</a> &copy; 2017 Zeel Logistics All rights reserved.</div>
-	             </div>
+             		
 	        </footer>

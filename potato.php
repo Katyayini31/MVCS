@@ -22,15 +22,15 @@ ini_set('display_errors', 1);
                     
 					<div class="col-sm-9 main-content">
 						<h1 class="text-center italic wow zoomIn" data-wow-delay="0.3s">At Maa Vaishnavi Cold Storage, we offer advanced warehousing and refrigeration solutions for potatoes, ensuring optimal storage conditions to maintain their freshness and quality. </h1>
-						<img src="media/images/3.png" class="full-width wow zoomIn" data-wow-delay="0.3s" alt="Img">
+						<img src="media/images/sacks.jpg" class="full-width wow zoomIn" data-wow-delay="0.3s" alt="Img" style="width: 400px; height: 400px; object-fit: cover; display: block; margin: 0 auto;">
 						<div class="row">                    	
-							<div class="col-xs-6 wow zoomIn" data-wow-delay="0.3s">
-								<p>Our facility is equipped with state-of-the-art cooling technology that regulates temperature and humidity, preventing sprouting and spoilage while extending shelf life.</p>
+							<div class="col-xs-12 wow zoomIn" data-wow-delay="0.3s">
+								<p style="font-size: 26px; text-align: center; font-weight: medium; color:black ">Our facility is equipped with state-of-the-art cooling technology that regulates temperature and humidity, preventing sprouting and spoilage while extending shelf life.</p>
 								
-								<img src="media/images/4.jpg" class="full-width" alt="Img">
+								<img src="media/images/atfcl1.jpeg" class="full-width" alt="Img" style="width: 500px; height: 300px; object-fit: cover; display: block; margin: 0 auto;">
 								
 								
-                                <p> Our structured warehousing system ensures proper ventilation, organized stacking, and efficient inventory management, making it ideal for farmers, wholesalers, and businesses. With a focus on hygiene and industry best practices, we provide reliable and cost-effective storage solutions. Whether for short-term or long-term storage, our refrigeration process preserves the nutritional value and market readiness of potatoes.</p>
+                                <p style="font-size: 26px; text-align: center; font-weight: medium; color:black "> Our structured warehousing system ensures proper ventilation, organized stacking, and efficient inventory management, making it ideal for farmers, wholesalers, and businesses. With a focus on hygiene and industry best practices, we provide reliable and cost-effective storage solutions. Whether for short-term or long-term storage, our refrigeration process preserves the nutritional value and market readiness of potatoes.</p>
 								
 							</div>
 							

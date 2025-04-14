@@ -4,9 +4,12 @@
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Zeel Logistics.</title>
-        <link rel="shortcut icon" href="img/favicon.png" sizes="16x16 32x32" type="image/x-icon">
+        <title>MVCS</title>
+        <link rel="shortcut icon" href="img/favicon-32x32.png" sizes="16x16 32x32" type="image/x-icon">
         <link href="css/master.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/my.css">
+
         <meta name="description" content="Trucking is transportation and Logistics website Kenya, ">
         <meta name="author" content="Astute-Technologies">
         <meta name="keywords" content="transportation, logistics, transportation template, logistics template, cargo,  Nairobi Goods and Sevices, Transport Solutions,business">

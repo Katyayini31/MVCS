@@ -22,22 +22,22 @@ ini_set('display_errors', 1);
                     
 					<div class="col-sm-9 main-content">
 						<h1 class="text-center italic wow zoomIn" data-wow-delay="0.3s"> At Maa Vaishnavi Cold Storage, we specialize in providing top-notch cold storage solutions for dairy products like mawa, chenna and ice creams.</h1>
-						<img src="media/images/7.jpg" class="full-width wow zoomIn" data-wow-delay="0.3s" alt="Img">
+						<img src="media/images/milk-can-1990072_1280.jpg" class="full-width wow zoomIn" data-wow-delay="0.3s" alt="Img" style="width: 400px; height: 400px; object-fit: cover; display: block; margin: 0 auto;">
 						<div class="row">                    	
-							<div class="col-xs-6 wow zoomIn" data-wow-delay="0.3s">
-                                <p>Our facility is equipped with advanced temperature-controlled storage, ensuring optimal conditions to maintain freshness and nutritional value.</p>
+							<div class="col-xs-12 wow zoomIn" data-wow-delay="0.3s">
+                                <p style="font-size: 26px; text-align: center; font-weight: medium; color:black">Our facility is equipped with advanced temperature-controlled storage, ensuring optimal conditions to maintain freshness and nutritional value.</p>
 								
-								<img src="media/images/4.jpg" class="full-width" alt="Img">
+								<img src="media/images/atfcl1.jpeg" alt="Img" style="width: 500px; height: 300px; object-fit: cover; display: block; margin: 0 auto;">
+
 								
-								<p>With a vast storage capacity and multiple temperature settings, we follow strict industry guidelines under expert supervision. Our organized stocking system ensures that all dairy products are stored hygienically and categorically. </p>
+								<p style="font-size: 26px; text-align: center; font-weight: medium; color:black ">With a vast storage capacity and multiple temperature settings, we follow strict industry guidelines under expert supervision. Our organized stocking system ensures that all dairy products are stored hygienically and categorically. </p>
 								
 							</div>
 							
-								<img src="media/images/5.jpg" class="full-width" alt="Img">
-								<h4> In addition to storage, we also offer cold storage warehousing and rental services, catering to diverse business needs with reliability and efficiency.</h4>
 								
-							</div>
-						</div>
+								
+								
+							</div>						</div>
 						<p class="text-center">
 							<a href="contact.php" class="btn btn-danger btn-default wow zoomIn" data-wow-delay="0.3s">contact us</a>
 						</p>

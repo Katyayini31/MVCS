@@ -20,18 +20,20 @@
 				<ul class="nav nav-tabs wow fadeIn" data-wow-delay="0.3s" id="myTab">
 					<li class="active"><a href="#tab1" data-toggle="tab">WHY CHOOSE US</a></li>
 					<li><a href="#tab2" data-toggle="tab">VISION & MISSION</a></li>
-					<li><a href="#tab3" data-toggle="tab">OUR QUALITY POLICY</a></li>
+					
 				</ul>
+
+				
 
 				<div class="tab-content inner-offset wow fadeIn" data-wow-delay="0.3s">
 					<div class="tab-pane active" id="tab1">
 						<div class="row">
 							<div class="col-sm-5">
-								<img class="full-width" src="media/images/1.jpg" alt="Img">
+								<img class="full-width" src="media/fleet-gallery/outside.jpg" alt="Img" style="width: 400px; height: 400px;">
 							</div>
 							<div class="col-sm-7">
-								<p><strong style="font-size:16px;">Why Choose Us for Cold Storage Solutions?</strong></p>
-								<p>At Maa Vaishnavi Cold Storage, we provide reliable and secure cold storage solutions designed to preserve the quality of perishable goods. Here’s what sets us apart:</p>
+								<p><strong style="font-size: 24px; text-align: center; font-weight: medium;">Why Choose Us for Cold Storage Solutions?</strong></p>
+								<p style="font-size: 16px; text-align: center; font-weight: medium;">At Maa Vaishnavi Cold Storage, we provide reliable and secure cold storage solutions designed to preserve the quality of perishable goods. Here’s what sets us apart:</p>
                                 	<p>
 										<ul>
 											<li>Prime Location: Conveniently situated in a prime area, ensuring easy access for farmers, traders, and businesses.</li>
@@ -39,7 +41,7 @@
 											<li>24/7 Monitoring & Security: Our facility is equipped with round-the-clock staff supervision, real-time machine monitoring, and CCTV surveillance, ensuring the safety and integrity of stored goods.</li>
                                         </ul>      
                                 </p>
-								<p>With cutting-edge infrastructure and a commitment to excellence, we offer a secure and efficient cold storage solution tailored to your needs.</p>
+								<p style="font-size: 16px; text-align: center; font-weight: medium;">With cutting-edge infrastructure and a commitment to excellence, we offer a secure and efficient cold storage solution tailored to your needs.</p>
                                 
 								
 							</div>
@@ -48,13 +50,13 @@
 					<div class="tab-pane" id="tab2">
 						<div class="row">
 							<div class="col-sm-5">
-								<img class="full-width" src="media/images/1.jpg" alt="Img">
+							<img class="full-width" src="media/fleet-gallery/outside.jpg" alt="Img" style="width: 400px; height: 400px;">
 							</div>
 							<div class="col-sm-7 text-block">
-								<p><strong>Vision</strong></p>
-								<p>To be the leading cold storage and warehousing facility, known for its advanced technology, reliability, and commitment to preserving the quality of perishable goods. We aim to provide a secure and efficient storage solution that supports businesses, farmers, and traders while ensuring the highest standards of hygiene and safety.</p>
-								<p><strong>Mission</strong></p>
-								<p>
+								<p><strong style="font-size: 24px;">Vision</strong></p>
+								<p  style="font-size: 16px; text-align: center; font-weight: medium;">To be the leading cold storage and warehousing facility, known for its advanced technology, reliability, and commitment to preserving the quality of perishable goods. We aim to provide a secure and efficient storage solution that supports businesses, farmers, and traders while ensuring the highest standards of hygiene and safety.</p>
+								<p><strong  style="font-size: 24px;">Mission</strong></p>
+								<p  style="font-size: 16px; text-align: center; font-weight: medium;">
 									<ul>
 										<li>To offer state-of-the-art cold storage solutions with both humidity-controlled and negative temperature-controlled storage, catering to diverse product needs.</li>
 										<li>To ensure 24/7 monitoring through expert staff and CCTV surveillance, maintaining the safety and quality of stored goods.</li>
@@ -65,129 +67,77 @@
 							</div>
 						</div>
 					</div>
-					<div class="tab-pane" id="tab3">
-						<div class="row">
-							<div class="col-sm-5">
-								<img class="full-width" src="media/images/1.jpg" alt="Img">
-							</div>
-							<div class="col-sm-7 text-block">
-								<p><strong>Zeel Logistics believe in providing our clients with high quality level of service that meets the client’s requirement and also adds value to their operations. We commit ourselves to;</strong></p>
-								<ul class="fa-ul">
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                   Ensuring that the business is operated as required by international standards in the supply chain industry.
-                            </li>
-
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                   Enhancing our performance through continuous monitoring of operations and reviews/ 
-                                    Adopting continuous development
-
-                            </li>
-
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                   Promoting quality management systems and ensuring that implementation is achieved by management review, corrective and preventive action.
-                            </li>
-
-                            
-                        </ul>
-                                <p>
-                                    Our operations have been designed to deliver to our client’s transport logistics solutions that are carefully
-mapped to
-                                </p>
-                            <ul class="fa-ul">
-                               <li>
-                                    <i class="fa fa-li fa-long-arrow-right"></i>
-                                    Work with our clients and create strategic business value.
-                              </li>
-                              <li>
-                                    <i class="fa fa-li fa-long-arrow-right"></i>
-                                     Adhere to our client’s requirements and seek to endlessly work in collaboration with them
-                                     with determination to improve and continuously add value to their transport operations
-                                     logistics. 
-                              </li>
-                           </ul>
-                                <p>
-                                    Zeel Logistics has proven experience in cost effectively and timely management of Logistics operation needs.<br>
-                                    We provide logistics support for major freighting companies. 
-
-                                </p>
-							</div>
-						</div>
-					</div>
-				</div>
+					
 
 				<div class="row stats percent-blocks" data-waypoint-scroll="true">
 					<div class="col-sm-6 col-md-3">
-						<div class="chart" data-percent="230">
-							<span><i class="fa fa-folder-open"></i></span>
-							<span class="percent">230</span>Projects Done
+						<div class="chart" data-percent="300+">
+							<span><img src="media/gif/farmer.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
+							<span class="percent">300+</span>Farmers Connected
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3">
-						<div class="chart" data-percent="68">
-							<span><i class="fa fa-users"></i></span>
-							<span class="percent">68</span>Clients Worldwide
+						<div class="chart" data-percent="30+">
+						<span><img src="media/gif/workers.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
+							<span class="percent">30+</span>Total Workers
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3">
-						<div class="chart" data-percent="16">
-							<span><i class="fa fa-truck"></i></span>
-							<span class="percent">16</span>Owned Vehicles
+						<div class="chart" data-percent="6000 MT">
+						<span><img src="media/gif/full-screen.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
+							<span class="percent">6000 MT</span>Storage Capacity
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3">
-						<div class="chart" data-percent="46">
-							<span><i class="fa fa-male"></i></span>
-							<span class="percent">46</span>People In Team
+						<div class="chart" data-percent="8+">
+						<span><img src="media/gif/group.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
+							<span class="percent">8+</span>People In Team
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="bg-image parallax" style="background-image:url(media/bg/4.jpg);">
+			<div class="bg-image parallax" style="background-image:url(images/bg.jpg);">
 				<div class="container-fluid text-center wow fadeInUp" data-wow-delay="0.3s">
-					<h1>WE ARE DEDICATED TO PROVIDE THE BEST SERVICE <br> AT THE LOWEST POSSIBLE COST</h1>
-					<a class="btn btn-success" href="contact.php">CONTACT US</a>
+				    <a class="btn btn-success" href="contact.php">CONTACT US</a>
 				</div>
 			</div>
 
-			<div class="container-fluid block-content inner-offset">
-				<div class="hgroup text-center wow fadeInUp" data-wow-delay="0.3s">
-					<h1>ZEEL LOGISTICS</h1>
-					<h2>SERVICE DELIVERY WITH DILIGENCE</h2>
-				</div>
-                
-				<div class="info-texts wow fadeIn" data-wow-delay="0.3s">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-sm-4 col-md-4 col-lg-4">
-								<p>We have wide network of offices in all major locations to help you with the services we offer</p>
-							</div>
-							<div class="col-sm-4 col-md-4 col-lg-4">
-								<p>With the help of our worldwide partners we are providing specialized services in Logistics solutions to our satisfied customers</p>
-							</div>
-							<div class="col-sm-4 col-md-4 col-lg-4">
-								<p>We provides comprehensive cargo care, cargo movement & project management</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>       
+			<div
+				style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 30px; background-color: #ffecec;">
+				<img src="media/gif/fresh.gif" alt="GIF 5" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/potato.gif" alt="GIF 1" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/milk.gif" alt="GIF 2" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/wheat.gif" alt="GIF 3" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/fruit.gif" alt="GIF 4" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/cold.gif" alt="GIF 5" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/harvest.gif" alt="GIF 5" style="width: 100px; height: auto; border-radius: 12px;">
+				<img src="media/gif/smart-farm.gif" alt="GIF 5" style="width: 100px; height: auto; border-radius: 12px;">
+			</div>    
 
 
 			<div class="container-fluid partners block-content">
-
-				<div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true" data-min450="2" data-min600="2" data-min768="4">
-					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/1.png" alt="Img"></a></div>
-					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/2.png" alt="Img"></a></div>
-					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/3.png" alt="Img"></a></div>
-					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/4.png" alt="Img"></a></div>
-					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/1.png" alt="Img"></a></div>
-					<div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="media/partners/2.png" alt="Img"></a></div>
-				</div>
-			</div>
+	            <div class="hgroup title-space wow fadeInLeft" data-wow-delay="0.3s">
+				<h1>OUR MANAGEMENT TEAM</h1>
+					<img src="media/gif/management-consulting.gif" alt="Icon"
+						style="width: 35px; height: 35px;">
+	            </div>
+	            <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true" data-min450="2" data-min600="2" data-min768="4">
+	                <div class="wow rotateIn" data-wow-delay="0.3s" style=""><a href="#">
+				    <p  style="color: black;">Hariwansh Roy – Operations & Finance Head</p>
+                    <p  style="color: black;">With over 25 years of experience in business management, Hariwansh Roy plays a crucial role in overseeing daily operations, managing staff, and optimizing resources at Maa Vaishnavi Cold Storage. His expertise in finance and strategic planning ensures smooth workflow and long-term growth for the company.</p>
+				    </a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#">
+					<p  style="color: black;">Lakshmi Kumari – Operations & Infrastructure Lead</p>
+					<p  style="color: black;">A key member of our team, Lakshmi Kumari efficiently handles major day-to-day operations. With her innovative approach, she has been instrumental in enhancing the company’s infrastructure, improving efficiency, and ensuring seamless operations.</p>
+				    </a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#">
+				    <p  style="color: black;">Aashish – Technology & Innovation Associate</p>
+                    <p  style="color: black;">Currently pursuing his B.Tech, Aashish brings a fresh perspective with his knowledge of the latest technology and creative ideas. His contributions have led to significant reforms in the company, integrating modern solutions to enhance efficiency and service quality.</p>
+				    </a></div>
+	                
+	            </div>
+	        </div>
 
 <?php include 'footer.php' ?>        
 		</div>

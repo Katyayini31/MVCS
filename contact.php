@@ -12,7 +12,7 @@
 				</div>
 			</div>
 
-			<iframe class="we-onmap wow fadeInUp" data-wow-delay="0.3s" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.807473228056!2d36.78432136429551!3d-1.2897720990592767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10a6630bb1c5%3A0x50ddf1cf28b5fa40!2sSifa+Towers%2C+Ring+Rd+Kilimani%2C+Nairobi%2C+Kenya!5e0!3m2!1sen!2s!4v1497946740933"></iframe>
+			<iframe class="we-onmap wow fadeInUp" data-wow-delay="0.3s" src="https://www.google.com/maps/place/Maa+Vaishnavi+Cold+Storage/@25.4553642,86.0412701,825m/data=!3m2!1e3!4b1!4m6!3m5!1s0x39f20f6c9e69a5ef:0xc4763aa9a94ab3b!8m2!3d25.4553642!4d86.043845!16s%2Fg%2F11kj1g4y1r?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D"></iframe>
 
 			<div class="container-fluid block-content">
 				<div class="row main-grid">
@@ -23,41 +23,24 @@
 						<div class="adress-details wow fadeInLeft" data-wow-delay="0.3s">
 							<div>
 								<span><i class="fa fa-location-arrow"></i></span>
-								<div><strong>Zeel Logistics Ltd.</strong><br>Sifa Towers, Kilimani,Ring Road </div>
+								<div><strong>Maa Vaishanvi Cold Storage</strong><br>Avadh Tirhut Road Singdaha, Barauni - Purnea Hwy, near Pepsi Plant</div>
 							</div>
 							<div>
 								<span><i class="fa fa-phone"></i></span>
-								<div>+254 724 795 342 </div>
+								<div>+919931644512 </div>
 							</div>
 							<div>
 								<span><i class="fa fa-envelope"></i></span>
-								<div>info@zeel.co.ke</div>
+								<div>mvcs.hl22@gmail.com</div>
 							</div>
 							<div>
 								<span><i class="fa fa-clock-o"></i></span>
-								<div>Mon - Sat  8.00 - 17.00</div>
+								<div>Mon - Sat  8.00 AM - 5.00 PM </div>
 							</div>
 						</div>
 						<br><br><hr><br>
-						<h4>Branch Office</h4>
-						<div class="adress-details wow fadeInLeft" data-wow-delay="0.3s">
-							<div>
-								<span><i class="fa fa-location-arrow"></i></span>
-								<div><strong>Zeel Logistics Ltd.</strong><br>American Block Residence Lane,Building 1,Door 3,Airport Road </div>
-							</div>
-							<div>
-								<span><i class="fa fa-phone"></i></span>
-								<div>+211 927 505 745 </div>
-							</div>
-							<div>
-								<span><i class="fa fa-envelope"></i></span>
-								<div>info@zeel.co.ke</div>
-							</div>
-							<div>
-								<span><i class="fa fa-clock-o"></i></span>
-								<div>Mon - Sat  8.00 - 17.00</div>
-							</div>
-						</div>
+						
+						
 					</div>
 					<div class="col-sm-8 wow fadeInRight" data-wow-delay="0.3s">
 						<h4>SEND us a message</h4>

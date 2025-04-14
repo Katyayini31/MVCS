@@ -22,15 +22,15 @@ ini_set('display_errors', 1);
                     
 					<div class="col-sm-9 main-content">
 						<h1 class="text-center italic wow zoomIn" data-wow-delay="0.3s">At Maa Vaishnavi Cold Storage, we offer advanced storage solutions for a variety of fruits, including apples, grapes, bananas, and oranges.</h1>
-						<img src="media/images/6.jpg" class="full-width wow zoomIn" data-wow-delay="0.3s" alt="Img">
+						<img src="media/images/applesnow.jpg" class="full-width wow zoomIn" data-wow-delay="0.3s" alt="Img" style="width: 400px; height: 400px; object-fit: cover; display: block; margin: 0 auto;">
 						<div class="row">                    	
-							<div class="col-xs-6 wow zoomIn" data-wow-delay="0.3s">
+							<div class="col-xs-12 wow zoomIn" data-wow-delay="0.3s">
 
-							   <p>Our facility is equipped with state-of-the-art temperature control systems to preserve freshness, flavor, and nutritional value. With a spacious storage capacity and customizable climate settings, we ensure optimal conditions for extending the shelf life of fruits while maintaining their quality. </p>
+							   <p style="font-size: 26px; text-align: center; font-weight: medium;  color:black">Our facility is equipped with state-of-the-art temperature control systems to preserve freshness, flavor, and nutritional value. With a spacious storage capacity and customizable climate settings, we ensure optimal conditions for extending the shelf life of fruits while maintaining their quality. </p>
                                 
 								
-								<img src="media/images/4.jpg" class="full-width" alt="Img">
-								<p>Our team follows strict hygiene protocols and efficient handling processes to keep products well-organized and fresh. We also provide cold storage warehousing and rental services, offering reliable and flexible solutions for businesses.</p>
+								<img src="media/images/atfcl1.jpeg" class="full-width" alt="Img" style="width: 500px; height: 300px ;object-fit: cover; display: block; margin: 0 auto;">
+								<p style="font-size: 26px; text-align: center; font-weight: medium;  color:black">Our team follows strict hygiene protocols and efficient handling processes to keep products well-organized and fresh. We also provide cold storage warehousing and rental services, offering reliable and flexible solutions for businesses.</p>
 								
 								
 							</div>

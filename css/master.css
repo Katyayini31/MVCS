@@ -21,9 +21,12 @@ Profile:    http://themeforest.net/user/andreysokoltsov
 
 
 /* FONTS */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300,900,700italic,400italic,500,500italic,300italic);
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300,900,700italic,400italic,500,500italic,300italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);*/
 @import url('../fonts/flaticon/flaticon.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet');
 
 
 
@@ -32,4 +35,3 @@ Profile:    http://themeforest.net/user/andreysokoltsov
 @import url('../assets/owl-carousel/owl.carousel.css');
 @import url('../assets/owl-carousel/owl.theme.css');
 @import url('../assets/isotope/isotope.css');
-

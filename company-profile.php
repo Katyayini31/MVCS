@@ -4,8 +4,8 @@
 <head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Zeel Logistics.</title>
-        <link rel="shortcut icon" href="img/favicon.png" sizes="16x16 32x32" type="image/x-icon">
+        <title>Maa Vaishanvi Cold Storage</title>
+        <link rel="shortcut icon" href="img/rename.png" sizes="16x16 32x32" type="image/x-icon">
 
 		<link href="css/master.css" rel="stylesheet">
 		<link href="css/doc.css" rel="stylesheet">
@@ -18,7 +18,7 @@
 	         
 			<div class="bg-image page-title">
 				<div class="container-fluid">
-					<a href="#"><h1>ZEEL LOGISTICS LIMITED</h1></a>
+					<a href="#"><h1>Maa Vaishanvi Cold Storage</h1></a>
 					<div class="pull-right">
 						<a href="index.php"><i class="fa fa-home fa-lg"></i></a> | <a href="company-profile.php">Company Profile</a>
 					</div>
@@ -29,15 +29,15 @@
 <div class="container">
 <div class="row">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix">
-<center><img src="img/logo.png"  width="200px"alt="logo"></center>
+<center><img src="img/lo2.png"  width="200px"alt="logo"></center>
 <hr>
-<center><p class="alert alert-success">Zeel Logistics is a well-established procurement and logistics firm set up to offer back to back supply chain solutions. The dynamic changes experienced in the supply chain industry require new ideas and approach.</p></center>
+<center><p class="alert alert-success"></p></center>
 <header class="section-header">
 <div class="heading-2-wrap">
 
 </div>
 </header>
-<iframe id="iframepdf"  style="border:1px solid #1397cf;" src="media/doc/company-profile.pdf" width="1200px" height="1000px" ></iframe>
+<iframe id="iframepdf"  style="border:1px solid #1397cf;" src="assets/cmp/MVCS_Company_Profile.pdf" width="1200px" height="1000px" ></iframe>
 
 </div>
 </div>

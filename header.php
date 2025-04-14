@@ -1,4 +1,6 @@
 <header id="this-is-top">
+
+
 	            <div class="container-fluid">
 	                <div class="topmenu row">
 	                    <nav class="col-sm-offset-3 col-md-offset-4 col-lg-offset-4 col-sm-6 col-md-5 col-lg-5">
@@ -16,7 +18,7 @@
 	                </div>
 	                <div class="row header">
 	                    <div class="col-sm-3 col-md-3 col-lg-3">
-	                        <img src="img/logo.png" width="200px" alt="Zeel Logistics"/>
+	                        <img src="img/lo2.png" width="200px" alt="Maa Vaishnavi Cold Storage"/>
 
 	                    </div>
 	                    <div class="col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-sm-8 col-md-8 col-lg-8">
@@ -40,8 +42,7 @@
 									                <li><a href="potato.php">Potato</a></li> 
                                                     <li><a href="Grains.php">Grains</a></li>
                                                     <li><a href="Dairy_Products.php">Dairy Products</a></li>
-                                                    
-                                                    <li><a href="fruits.php">Fruits</a></li>
+                                                     <li><a href="fruits.php">Fruits</a></li>
                                                    
 								</ul>
 							</li>

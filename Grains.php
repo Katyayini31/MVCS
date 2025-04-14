@@ -22,16 +22,14 @@ ini_set('display_errors', 1);
                     
 					<div class="col-sm-9 main-content">
 						<h1 class="text-center italic wow zoomIn" data-wow-delay="0.3s"> At Maa Vaishnavi Cold Storage, we offer dedicated warehousing solutions for a variety of grains, ensuring safe and efficient storage.</h1>
-						<img src="media/images/8.jpg" class="full-width wow zoomIn" data-wow-delay="0.3s" alt="Img">
+						<img src="media/images/cornfreeze.jpg" class="full-width wow zoomIn" data-wow-delay="0.3s" alt="Img" style="width: 400px; height: 400px; object-fit: cover; display: block; margin: 0 auto;">
 						<div class="row">                    	
-							<div class="col-xs-6 wow zoomIn" data-wow-delay="0.3s">
-                                <p></p>
-
-								<p>
+							<div class="col-xs-12 wow zoomIn" data-wow-delay="0.3s">
+                            	<p style="font-size: 26px; text-align: center; font-weight: medium; color:black;">
 								While temperature control is not required for grains, our facility is designed to maintain optimal conditions that protect them from moisture, pests, and contamination. 
                                 </p>
-								<img src="media/images/4.jpg" class="full-width" alt="Img">
-                                <p>Our well-structured storage system ensures proper ventilation, cleanliness, and organization, helping to preserve the quality and nutritional value of grains over extended periods. With a focus on hygiene and industry best practices, our warehousing services provide a secure and reliable solution for farmers, traders, and businesses looking for bulk grain storage.</p>
+								<img src="media/images/atfcl1.jpeg" class="full-width" alt="Img" style="width: 500px; height: 300px; object-fit: cover; display: block; margin: 0 auto;">
+                                <p style="font-size: 26px; text-align: center; font-weight: medium;  color:black">Our well-structured storage system ensures proper ventilation, cleanliness, and organization, helping to preserve the quality and nutritional value of grains over extended periods. With a focus on hygiene and industry best practices, our warehousing services provide a secure and reliable solution for farmers, traders, and businesses looking for bulk grain storage.</p>
                                     
 		
 							
