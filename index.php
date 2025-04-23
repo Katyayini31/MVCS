@@ -171,27 +171,28 @@
 	        <div class="container-fluid block-content percent-blocks" data-waypoint-scroll="true">
         		<div class="row stats">
             		<div class="col-sm-6 col-md-3 col-lg-3">
-                		<div class="chart" data-percent="300+">
-                    		<span><img src="media/gif/farmer.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
-                    		<span class="percent">300+</span>Farmers Connected
+					<div class="chart" data-percent="300+">
+						<span><img src="media/gif/farmer.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
+						<span class="percent">300 </span><span style=" font-weight: bold;">+</span><br>Farmers Connected
 	                    </div>
+
 	                </div>
 	                <div class="col-sm-6 col-md-3 col-lg-3">
                 		<div class="chart" data-percent="30+">
 						<span><img src="media/gif/workers.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
-                    		<span class="percent">30+</span>Total Workers
+						<span class="percent">30</span><span>+</span>Total Workers
 	                    </div>
 	                </div>
 	                <div class="col-sm-6 col-md-3 col-lg-3">
-                		<div class="chart" data-percent="6000 MT">
+                		<div class="chart" data-percent="7000 MT">
 						<span><img src="media/gif/full-screen.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
-                    		<span class="percent">6000 MT</span>Total Capacity
+						<span class="percent">7000</span><span> MT</span><br>Storage Capacity
 	                    </div>
 	                </div>
 	                <div class="col-sm-6 col-md-3 col-lg-3">
                 		<div class="chart" data-percent="8+">
 						<span><img src="media/gif/group.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
-                    		<span class="percent">8+</span>People In Team
+						<span class="percent">8</span><span>+</span>People In Team
 	                    </div>
 	                </div>
 	            </div>

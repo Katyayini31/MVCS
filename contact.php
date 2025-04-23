@@ -12,7 +12,7 @@
 				</div>
 			</div>
 
-			<iframe class="we-onmap wow fadeInUp" data-wow-delay="0.3s" src="https://www.google.com/maps/place/Maa+Vaishnavi+Cold+Storage/@25.4553642,86.0412701,825m/data=!3m2!1e3!4b1!4m6!3m5!1s0x39f20f6c9e69a5ef:0xc4763aa9a94ab3b!8m2!3d25.4553642!4d86.043845!16s%2Fg%2F11kj1g4y1r?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D"></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14409.953402230987!2d86.03354525390235!3d25.455363840727323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f20f6c9e69a5ef%3A0xc4763aa9a94ab3b!2sMaa%20Vaishnavi%20Cold%20Storage!5e0!3m2!1sen!2sin!4v1745349420856!5m2!1sen!2sin" width="1600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 			<div class="container-fluid block-content">
 				<div class="row main-grid">

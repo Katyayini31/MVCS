@@ -24,7 +24,7 @@
 	                    <div class="col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-sm-8 col-md-8 col-lg-8">
 	                        <div class="text-right header-padding">
 	                           
-	                            <div class="h-block"><span>EMAIL US</span>info@zeel.co.ke</div>
+	                            <div class="h-block"><span>EMAIL US</span>mvcs.hl22@gmail.com</div>
 	                            <div class="h-block"><span>WORKING HOURS</span> 8.00 - 17.00</div>
                                 <div class="h-block"><span>WORKING DAYS</span>Mon - Sat</div>
 	                            <a class="btn btn-success" href="contact.php">CONTACT US TODAY</a>
