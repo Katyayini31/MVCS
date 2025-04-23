@@ -5,7 +5,7 @@
 - Profile:	http://themeforest.net/user/andreysokoltsov
 --*/
 
-(function() {
+(function () {
 
 	"use strict";
 
@@ -13,7 +13,7 @@
 
 		initialized: false,
 
-		initialize: function() {
+		initialize: function () {
 
 			if (this.initialized) return;
 			this.initialized = true;
@@ -22,11 +22,11 @@
 
 		},
 
-		build: function() {
+		build: function () {
 
 			//Placeholder for IE
 			$('input, textarea').placeholder();
-			
+
 			// Dropdown menu
 			this.dropdownhover();
 
@@ -61,26 +61,26 @@
 			this.initSearchModal();
 		},
 
-		initScrollAnimations: function(options) {
+		initScrollAnimations: function (options) {
 			var scrollingAnimations = $('body').data("scrolling-animations");
-			if(scrollingAnimations){
+			if (scrollingAnimations) {
 				new WOW().init();
 			}
 		},
-		dropdownhover: function(options) {
+		dropdownhover: function (options) {
 			/** Extra script for smoother navigation effect **/
 			if ($(window).width() > 798) {
-				$('.navbar-main-slide').on('mouseenter', '.navbar-nav > .dropdown', function() {
+				$('.navbar-main-slide').on('mouseenter', '.navbar-nav > .dropdown', function () {
 					"use strict";
 					$(this).addClass('open');
-				}).on('mouseleave', '.navbar-nav > .dropdown', function() {
+				}).on('mouseleave', '.navbar-nav > .dropdown', function () {
 					"use strict";
 					$(this).removeClass('open');
 				});
 			}
 		},
-		initOwlCarousel: function(options) {
-			$(".enable-owl-carousel").each(function(i) {
+		initOwlCarousel: function (options) {
+			$(".enable-owl-carousel").each(function (i) {
 				var $owl = $(this);
 				var mainSliderData = $owl.data('main-slider');
 				var singleItemData = $owl.data('single-item');
@@ -91,43 +91,43 @@
 				var min450 = $owl.data('min450');
 				var min600 = $owl.data('min600');
 				var min768 = $owl.data('min768');
-				
+
 				$owl.owlCarousel({
 					singleItem: singleItemData,
 					navigation: navigationData,
 					pagination: paginationData,
 					autoPlay: autoPlayData,
 					stopOnHover: stopOnHoverData,
-					navigationText:["<i class=\"fa fa-angle-left\"></i>", "<i class=\"fa fa-angle-right\"></i>"],
-					itemsCustom:[
+					navigationText: ["<i class=\"fa fa-angle-left\"></i>", "<i class=\"fa fa-angle-right\"></i>"],
+					itemsCustom: [
 						[0, 1],
 						[450, min450],
 						[600, min600],
 						[768, min768]
 					],
 				});
-				if(mainSliderData){
-					$owl.find(".item").each(function(index, element){
+				if (mainSliderData) {
+					$owl.find(".item").each(function (index, element) {
 						var slide = element;
-						$(element).find("img").each(function(index, element){
-							$(slide).attr("style", "background-image:url("+$(element).attr("src")+");");
+						$(element).find("img").each(function (index, element) {
+							$(slide).attr("style", "background-image:url(" + $(element).attr("src") + ");");
 							$(element).detach();
 						});
 					});
-					$owl.find("a.next").on('click', function(){
+					$owl.find("a.next").on('click', function () {
 						$owl.next();
 					});
-					$owl.find("a.prev").on('click', function(){
+					$owl.find("a.prev").on('click', function () {
 						$owl.prev();
 					});
 					var $owl = $owl.data('owlCarousel');
 				}
 			});
 		},
-		isotopeFilter: function(options) {
+		isotopeFilter: function (options) {
 			var $container = $('.isotope-filter');
 
-			$container.imagesLoaded(function() {
+			$container.imagesLoaded(function () {
 				$container.isotope({
 					// options
 					filter: '.allservices',
@@ -135,7 +135,7 @@
 				});
 			});
 			// filter items when filter link is clicked
-			$('#filter').on('click', 'a', function() {
+			$('#filter').on('click', 'a', function () {
 				$('#filter  li').removeClass('active');
 				$(this).parent('li').addClass('active');
 				var selector = $(this).attr('data-filter');
@@ -145,61 +145,61 @@
 				return false;
 			});
 		},
-		initGoToTop: function(options) {
+		initGoToTop: function (options) {
 			$("#to-top").smoothScroll();
 		},
-		initAccordion: function(options) {
-			$(document).on('click', '.why-us li span', function(){
-				if($(this).text() == "+"){
+		initAccordion: function (options) {
+			$(document).on('click', '.why-us li span', function () {
+				if ($(this).text() == "+") {
 					$(this).text("-");
 				}
-				else{
+				else {
 					$(this).text("+");
 				}
 				$(this).parent().find("p").slideToggle();
-			}); 
+			});
 		},
-		initSlideEffect: function(options) {
-			$(document).on('mouseenter', '.team.hover-eff > div > div', function(){
+		initSlideEffect: function (options) {
+			$(document).on('mouseenter', '.team.hover-eff > div > div', function () {
 				$(this).find("span").slideDown(200);
 			});
-			$(document).on('mouseleave', '.team.hover-eff > div > div', function(){
+			$(document).on('mouseleave', '.team.hover-eff > div > div', function () {
 				$(this).find("span").slideUp(200);
 			});
 		},
-		initTabs: function(options) {
+		initTabs: function (options) {
 			$('#myTab a:first').tab('show');
 		},
-		initMenuNavJs: function(options) {
-			$(document).on('click', 'li.submenu > a', function(e){
+		initMenuNavJs: function (options) {
+			$(document).on('click', 'li.submenu > a', function (e) {
 				e.preventDefault();
 			});
-			$(document).on('click', 'li.submenu', function(e){
+			$(document).on('click', 'li.submenu', function (e) {
 				$(this).find("ul").slideToggle();
 			});
-			$(document).on('click', '#menu-close', function(e){
+			$(document).on('click', '#menu-close', function (e) {
 				e.preventDefault();
 				$("body").removeClass('menu-open');
 				$(this).removeClass('show').hide();
-				$(".main-menu").slideUp(1000, function(){
+				$(".main-menu").slideUp(1000, function () {
 					$(this).removeAttr("style");
 				});
 			});
-			$(document).on('click', '#menu-open', function(e){
+			$(document).on('click', '#menu-open', function (e) {
 				e.preventDefault();
 				$("body").addClass('menu-open');
 				$(".main-menu").slideDown();
 				$("#menu-close").addClass('show').show();
 			});
 		},
-		initNumberCounter: function(options) {
+		initNumberCounter: function (options) {
 			if ($('body').length) {
 				var waypointScroll = $('.percent-blocks').data('waypoint-scroll');
-				if(waypointScroll){
-					$(window).on('scroll', function() {
+				if (waypointScroll) {
+					$(window).on('scroll', function () {
 						var winH = $(window).scrollTop();
-						$('.percent-blocks').waypoint(function() {
-							$('.chart').each(function() {
+						$('.percent-blocks').waypoint(function () {
+							$('.chart').each(function () {
 								CharsStart();
 							});
 						}, {
@@ -218,13 +218,14 @@
 					lineWidth: false,
 					size: false,
 					animate: 3000,
-					onStep: function(from, to, percent){
+					onStep: function (from, to, percent) {
 						$(this.el).find('.percent').text(Math.round(percent));
 					}
 				});
 			}
 		},
-		initSearchModal: function(options) {
+
+		initSearchModal: function (options) {
 			$(document).on("click", ".btn_header_search", function (event) {
 				event.preventDefault();
 				$(".search-form-modal").addClass("open");
@@ -233,9 +234,9 @@
 				event.preventDefault();
 				$(".search-form-modal").removeClass("open");
 			});
-		},
-	};
+		}
 
+	}
 	Core.initialize();
 
 })();

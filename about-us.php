@@ -20,6 +20,7 @@
 				<ul class="nav nav-tabs wow fadeIn" data-wow-delay="0.3s" id="myTab">
 					<li class="active"><a href="#tab1" data-toggle="tab">WHY CHOOSE US</a></li>
 					<li><a href="#tab2" data-toggle="tab">VISION & MISSION</a></li>
+					<li><a href="#tab3" data-toggle="tab"> WAYBRIDGE FACILITY</a></li>
 					
 				</ul>
 
@@ -67,31 +68,59 @@
 							</div>
 						</div>
 					</div>
+
+					
+					<div class="tab-pane" id="tab3">
+						<div class="row">
+							<div class="col-sm-5">
+								<img class="full-width" src="media/images/Way1.jpg" alt="Img" style="width: 400px; height: 400px;">
+								<img class="full-width" src="media/images/Way2.jpg" alt="Img" style="width: 400px; height: 200px; margin-top: 20px;">
+							</div>
+							<div class="col-sm-7 text-block">
+								<p><strong style="font-size: 24px; text-align: center; font-weight: medium;">Steel Platform Weighbridge in Cold Storage Operations</strong></p>
+								<p style="font-size: 16px; text-align: center; font-weight: medium;">Objective:To improve inventory accuracy, streamline logistics, and ensure accountability in goods movement by integrating a steel platform weighbridge into cold storage operations.</p>
+								<p>Use Case Summary:Our cold storage facility uses a steel platform weighbridge to accurately measure the weight of incoming and outgoing vehicles carrying perishable goods. This ensures precise tracking of inventory, reduces losses due to weight discrepancies, and supports billing transparency for clients.</p>
+                                	<p>Key Benefits:
+										<ul>
+											<li>Accurate Inventory Management: Weighing trucks before and after loading/unloading helps track exact quantities stored or dispatched.</li>
+											<li>Operational Efficiency: Faster vehicle processing with minimal manual intervention.</li>
+											<li>Billing & Compliance: Ensures clients are charged correctly based on weight, and helps comply with transport and trade regulations.</li>
+											<li>Durability & Mobility: The steel platform structure withstands heavy use and can be relocated if storage operations expand.</li>
+                                        </ul>      
+                                </p>
+								<p>Outcome:Improved accountability, reduced disputes over goods quantities, and enhanced operational control within the cold storage facility.</p>
+								
+                                
+								
+							</div>
+						</div>
+					</div>
 					
 
 				<div class="row stats percent-blocks" data-waypoint-scroll="true">
 					<div class="col-sm-6 col-md-3">
-						<div class="chart" data-percent="300+">
-							<span><img src="media/gif/farmer.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
-							<span class="percent">300+</span>Farmers Connected
-						</div>
-					</div>
+				    	<div class="chart" data-percent="300+">
+						<span><img src="media/gif/farmer.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
+						<span class="percent">300 </span></span><span style=" font-weight: bold;">+</span><br>Farmers Connected
+	                    </div>
+                    </div>
+				</div>
 					<div class="col-sm-6 col-md-3">
 						<div class="chart" data-percent="30+">
 						<span><img src="media/gif/workers.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
-							<span class="percent">30+</span>Total Workers
+							<span class="percent">30</span><span>+</span>Total Workers
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3">
-						<div class="chart" data-percent="6000 MT">
+						<div class="chart" data-percent="7000 MT">
 						<span><img src="media/gif/full-screen.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
-							<span class="percent">6000 MT</span>Storage Capacity
+						<span class="percent">7000</span><span> MT</span><br>Storage Capacity
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3">
 						<div class="chart" data-percent="8+">
 						<span><img src="media/gif/group.png" alt="GIF 5" style="width: 40px; height: auto; border-radius: 6px;"></span>
-							<span class="percent">8+</span>People In Team
+							<span class="percent">8</span><span>+</span>People In Team
 						</div>
 					</div>
 				</div>
