@@ -20,7 +20,7 @@
 				<ul class="nav nav-tabs wow fadeIn" data-wow-delay="0.3s" id="myTab">
 					<li class="active"><a href="#tab1" data-toggle="tab">WHY CHOOSE US</a></li>
 					<li><a href="#tab2" data-toggle="tab">VISION & MISSION</a></li>
-					<li><a href="#tab3" data-toggle="tab"> WAYBRIDGE FACILITY</a></li>
+					<li><a href="#tab3" data-toggle="tab"> WEIGH BRIDGE FACILITY</a></li>
 					
 				</ul>
 
@@ -77,7 +77,7 @@
 								<img class="full-width" src="media/images/Way2.jpg" alt="Img" style="width: 400px; height: 200px; margin-top: 20px;">
 							</div>
 							<div class="col-sm-7 text-block">
-								<p><strong style="font-size: 24px; text-align: center; font-weight: medium;">Steel Platform Weighbridge in Cold Storage Operations</strong></p>
+								<p><strong style="font-size: 24px; text-align: center; font-weight: medium;">Steel Platform Weigh Bridge in Cold Storage Operations</strong></p>
 								<p style="font-size: 16px; text-align: center; font-weight: medium;">Objective:To improve inventory accuracy, streamline logistics, and ensure accountability in goods movement by integrating a steel platform weighbridge into cold storage operations.</p>
 								<p>Use Case Summary:Our cold storage facility uses a steel platform weighbridge to accurately measure the weight of incoming and outgoing vehicles carrying perishable goods. This ensures precise tracking of inventory, reduces losses due to weight discrepancies, and supports billing transparency for clients.</p>
                                 	<p>Key Benefits:
