@@ -1,6 +1,11 @@
 <?php
 ob_start();
 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php';
+
 if(isset($_POST['submit'])) {
     $email_to = "mvcs.hl22@gmail.com";
     $email_subject = "MVCS Email Queries";
@@ -21,7 +26,7 @@ if(isset($_POST['submit'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
 
-   ['first_name'];
+    $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
     $email_from = $_POST['email'];
     $telephone = $_POST['telephone'];
@@ -37,7 +42,7 @@ if(isset($_POST['submit'])) {
     $string_exp = "/^[A-Za-z .'-]+$/";
 
     if(!preg_match($string_exp,$first_name)) {
-        'The First Name you entered does not appear to be valid.<br />';
+        $error_message .= 'The First Name you entered does not appear to be valid.<br />';
     }
 
     if(!preg_match($string_exp,$last_name)) {
@@ -66,19 +71,14 @@ if(isset($_POST['submit'])) {
     $email_message .= "Comments: ".clean_string($comments)."\n";
 
     // PHPMailer integration
-    use PHPMailer\PHPMailer\PHPMailer;
-    use PHPMailer\PHPMailer\Exception;
-
-    require 'vendor/autoload.php';
-
     $mail = new PHPMailer(true);
 
     try {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'your-email@gmail.com';
-        $mail->Password = 'your-email-password';
+        $mail->Username = 'kmsr2524@gmail.com';
+        $mail->Password = 'Manu1234';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
