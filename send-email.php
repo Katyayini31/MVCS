@@ -91,13 +91,13 @@ if(isset($_POST['submit'])) {
         $mail->AltBody = $email_message;
 
         $mail->send();
-        echo 'Message has been sent';
+        $response1= 'Message has been sent';
     } catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        $response1 = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
 
-    $response1 = "Thank you for contacting us. We will be in touch with you very soon.";
-    header("location: contact.php?response1=".$response1."");
+    //$response1 = "Thank you for contacting us. We will be in touch with you very soon.";
+    //header("location: contact.php?response1=".$response1."");
 }
 
 ob_end_flush();
