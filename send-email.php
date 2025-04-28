@@ -11,18 +11,13 @@ if(isset($_POST['submit'])) {
     $email_subject = "MVCS Email Queries";
 
     function died($error) {
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
-        echo "These errors appear below.<br /><br />";
-        echo $error."<br /><br />";
-        echo "Please go back and fix these errors.<br /><br />";
+        echo "We are very sorry, but there were error(s) found with the form you submitted.<br><br>";
+        echo $error."<br><br>";
+        echo "Please go back and fix these errors.<br><br>";
         die();
     }
 
-    if(!isset($_POST['first_name']) ||
-        !isset($_POST['last_name']) ||
-        !isset($_POST['email']) ||
-        !isset($_POST['telephone']) ||
-        !isset($_POST['comments'])) {
+    if(!isset($_POST['first_name'], $_POST['last_name'], $_POST['email'], $_POST['telephone'], $_POST['comments'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
 
@@ -33,24 +28,24 @@ if(isset($_POST['submit'])) {
     $comments = $_POST['comments'];
 
     $error_message = "";
-    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+    $email_exp = '/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/';
 
-    if(!preg_match($email_exp,$email_from)) {
-        $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+    if(!preg_match($email_exp, $email_from)) {
+        $error_message .= 'The Email Address you entered does not appear to be valid.<br>';
     }
 
     $string_exp = "/^[A-Za-z .'-]+$/";
 
-    if(!preg_match($string_exp,$first_name)) {
-        $error_message .= 'The First Name you entered does not appear to be valid.<br />';
+    if(!preg_match($string_exp, $first_name)) {
+        $error_message .= 'The First Name you entered does not appear to be valid.<br>';
     }
 
-    if(!preg_match($string_exp,$last_name)) {
-        $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
+    if(!preg_match($string_exp, $last_name)) {
+        $error_message .= 'The Last Name you entered does not appear to be valid.<br>';
     }
 
     if(strlen($comments) < 2) {
-        $error_message .= 'The Comments you entered do not appear to be valid.<br />';
+        $error_message .= 'The Comments you entered do not appear to be valid.<br>';
     }
 
     if(strlen($error_message) > 0) {
@@ -70,17 +65,17 @@ if(isset($_POST['submit'])) {
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
 
-    // PHPMailer integration
     $mail = new PHPMailer(true);
 
     try {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'kmsr2524@gmail.com';
-        $mail->Password = 'Manu@1234';
+        $mail->Username = 'kmsr2524@gmail.com'; // Your Gmail
+        $mail->Password = 'krrb stbx flxs illp'; // NOT your real Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
+        $mail->CharSet = 'UTF-8';
 
         $mail->setFrom($email_from, $first_name . ' ' . $last_name);
         $mail->addAddress($email_to);
@@ -91,14 +86,16 @@ if(isset($_POST['submit'])) {
         $mail->AltBody = $email_message;
 
         $mail->send();
-        $response1= 'Message has been sent';
+        $response1= 'Message has been sent successfully.';
     } catch (Exception $e) {
         $response1 = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
 
-    //$response1 = "Thank you for contacting us. We will be in touch with you very soon.";
-    //header("location: contact.php?response1=".$response1."");
+    // If you want, redirect
+    // header("location: contact.php?response1=" . urlencode($response1));
+    echo $response1;
 }
 
 ob_end_flush();
 ?>
+
