@@ -1,101 +1,62 @@
 <?php
-ob_start();
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-
+ 
+// Load Composer's autoloader
 require 'vendor/autoload.php';
-
-if(isset($_POST['submit'])) {
-    $email_to = "mvcs.hl22@gmail.com";
-    $email_subject = "MVCS Email Queries";
-
-    function died($error) {
-        echo "We are very sorry, but there were error(s) found with the form you submitted.<br><br>";
-        echo $error."<br><br>";
-        echo "Please go back and fix these errors.<br><br>";
-        die();
-    }
-
-    if(!isset($_POST['first_name'], $_POST['last_name'], $_POST['email'], $_POST['telephone'], $_POST['comments'])) {
-        died('We are sorry, but there appears to be a problem with the form you submitted.');       
-    }
-
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
-    $email_from = $_POST['email'];
-    $telephone = $_POST['telephone'];
-    $comments = $_POST['comments'];
-
-    $error_message = "";
-    $email_exp = '/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/';
-
-    if(!preg_match($email_exp, $email_from)) {
-        $error_message .= 'The Email Address you entered does not appear to be valid.<br>';
-    }
-
-    $string_exp = "/^[A-Za-z .'-]+$/";
-
-    if(!preg_match($string_exp, $first_name)) {
-        $error_message .= 'The First Name you entered does not appear to be valid.<br>';
-    }
-
-    if(!preg_match($string_exp, $last_name)) {
-        $error_message .= 'The Last Name you entered does not appear to be valid.<br>';
-    }
-
-    if(strlen($comments) < 2) {
-        $error_message .= 'The Comments you entered do not appear to be valid.<br>';
-    }
-
-    if(strlen($error_message) > 0) {
-        died($error_message);
-    }
-
-    $email_message = "Form details below.\n\n";
-
-    function clean_string($string) {
-        $bad = array("content-type","bcc:","to:","cc:","href");
-        return str_replace($bad,"",$string);
-    }
-
-    $email_message .= "First Name: ".clean_string($first_name)."\n";
-    $email_message .= "Last Name: ".clean_string($last_name)."\n";
-    $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Telephone: ".clean_string($telephone)."\n";
-    $email_message .= "Comments: ".clean_string($comments)."\n";
-
+ 
+// Function to send email
+function sendEmail($firstName, $lastName, $email, $contactNo, $subject, $message) {
     $mail = new PHPMailer(true);
-
+ 
     try {
+        // Server settings
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'kmsr2524@gmail.com'; // Your Gmail
-        $mail->Password = 'krrb stbx flxs illp'; // NOT your real Gmail password
-        $mail->SMTPSecure = 'tls';
+        $mail->Username = 'your-email@gmail.com'; // Replace with your Gmail address
+        $mail->Password = 'your-email-password'; // Replace with your Gmail password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
-        $mail->CharSet = 'UTF-8';
-
-        $mail->setFrom($email_from, $first_name . ' ' . $last_name);
-        $mail->addAddress($email_to);
-
+ 
+        // Recipients
+        $mail->setFrom($email, "$firstName $lastName");
+        $mail->addAddress('recipient@example.com'); // Replace with the actual recipient email address
+ 
+        // Content
         $mail->isHTML(true);
-        $mail->Subject = $email_subject;
-        $mail->Body    = nl2br($email_message);
-        $mail->AltBody = $email_message;
-
+        $mail->Subject = $subject;
+        $mail->Body   = "
+        <html>
+        <head>
+            <title>$subject</title>
+        </head>
+        <body>
+            <p><strong>First Name:</strong> $firstName</p>
+            <p><strong>Last Name:</strong> $lastName</p>
+            <p><strong>Email:</strong> $email</p>
+            <p><strong>Contact No:</strong> $contactNo</p>
+            <p><strong>Message:</strong></p>
+            <p>$message</p>
+        </body>
+        </html>
+        ";
+ 
+        // Send email
         $mail->send();
-        $response1= 'Message has been sent successfully.';
+        echo 'Email sent successfully!';
     } catch (Exception $e) {
-        $response1 = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        echo "Failed to send email. Mailer Error: {$mail->ErrorInfo}";
     }
-
-    // If you want, redirect
-    // header("location: contact.php?response1=" . urlencode($response1));
-    echo $response1;
 }
-
-ob_end_flush();
+ 
+// Example usage
+$firstName = 'John';
+$lastName = 'Doe';
+$email = 'john.doe@example.com';
+$contactNo = '1234567890';
+$subject = 'Test Subject';
+$message = 'This is a test message.';
+ 
+sendEmail($firstName, $lastName, $email, $contactNo, $subject, $message);
 ?>
-
