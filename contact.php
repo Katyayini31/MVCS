@@ -23,7 +23,7 @@
 						<div class="adress-details wow fadeInLeft" data-wow-delay="0.3s">
 							<div>
 								<span><i class="fa fa-location-arrow"></i></span>
-								<div><strong>Maa Vaishanvi Cold Storage</strong><br>Avadh Tirhut Road Singdaha, Barauni - Purnea Hwy, near Pepsi Plant</div>
+								<div><strong>Maa Vaishanavi Cold Storage</strong><br>Avadh Tirhut Road Singdaha, Barauni - Purnea Hwy, near Pepsi Plant</div>
 							</div>
 							<div>
 								<span><i class="fa fa-phone"></i></span>
