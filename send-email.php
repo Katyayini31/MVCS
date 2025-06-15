@@ -89,78 +89,156 @@
     </div>
 
     <?php
-    use PHPMailer\PHPMailer\PHPMailer;
-    use PHPMailer\PHPMailer\Exception;
+    // use PHPMailer\PHPMailer\PHPMailer;
+    // use PHPMailer\PHPMailer\Exception;
 
-    // Load Composer's autoloader
-    require 'vendor/autoload.php';
+    // // Load Composer's autoloader
+    // require 'vendor/autoload.php';
 
-    // Function to send email
-    function sendEmail($firstName, $lastName, $email, $contactNo, $subject, $message)
-    {
-        $mail = new PHPMailer(true);
+    // // Function to send email
+    // function sendEmail($firstName, $lastName, $email, $contactNo, $subject, $message)
+    // {
+    //     $mail = new PHPMailer(true);
 
-        try {
-            // Server settings
-            $mail->isSMTP();
-            $mail->Host = 'smtp.gmail.com';
-            $mail->SMTPAuth = true;
-            $mail->Username = 'kmsr2524@gmail.com'; // Replace with your Gmail address
-            $mail->Password = 'krrb stbx flxs illp'; // Replace with your Gmail password
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-            $mail->Port = 587;
+    //     try {
+    //         // Server settings
+    //         $mail->isSMTP();
+    //         $mail->Host = 'smtp.gmail.com';
+    //         $mail->SMTPAuth = true;
+    //         $mail->Username = 'kmsr2524@gmail.com'; // Replace with your Gmail address
+    //         $mail->Password = 'krrb stbx flxs illp'; // Replace with your Gmail password
+    //         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    //         $mail->Port = 587;
 
-            // Additional options
-            $mail->SMTPOptions = array(
-                'ssl' => array(
-                    'verify_peer' => false,
-                    'verify_peer_name' => false,
-                    'allow_self_signed' => true,
-                ),
-            );
+    //         // Additional options
+    //         $mail->SMTPOptions = array(
+    //             'ssl' => array(
+    //                 'verify_peer' => false,
+    //                 'verify_peer_name' => false,
+    //                 'allow_self_signed' => true,
+    //             ),
+    //         );
 
-            // Recipients
-            $mail->setFrom($email, "$firstName $lastName");
-            $mail->addAddress('kmsr2524@gmail.com'); // Replace with the actual recipient email address
-            // Content
-            $mail->isHTML(true);
-            $mail->Subject = $subject;
-            $mail->Body = "
-            <html>
-            <head>
-                <title>$subject</title>
-            </head>
-            <body>
-                <p><strong>First Name:</strong> $firstName</p>
-                <p><strong>Last Name:</strong> $lastName</p>
-                <p><strong>Email:</strong> $email</p>
-                <p><strong>Contact No:</strong> $contactNo</p>
-                <p><strong>Message:</strong></p>
-                <p>$message</p>
-            </body>
-            </html>
-            ";
+    //         // Recipients
+    //         $mail->setFrom($email, "$firstName $lastName");
+    //         $mail->addAddress('kmsr2524@gmail.com'); // Replace with the actual recipient email address
+    //         // Content
+    //         $mail->isHTML(true);
+    //         $mail->Subject = $subject;
+    //         $mail->Body = "
+    //         <html>
+    //         <head>
+    //             <title>$subject</title>
+    //         </head>
+    //         <body>
+    //             <p><strong>First Name:</strong> $firstName</p>
+    //             <p><strong>Last Name:</strong> $lastName</p>
+    //             <p><strong>Email:</strong> $email</p>
+    //             <p><strong>Contact No:</strong> $contactNo</p>
+    //             <p><strong>Message:</strong></p>
+    //             <p>$message</p>
+    //         </body>
+    //         </html>
+    //         ";
 
-            // Send email
-            $mail->send();
-            echo 'Email sent successfully!';
-        } catch (Exception $e) {
-            echo "Failed to send email. Mailer Error: {$mail->ErrorInfo}";
-        }
-    }
+    //         // Send email
+    //         $mail->send();
+    //         echo 'Email sent successfully!';
+    //     } catch (Exception $e) {
+    //         echo "Failed to send email. Mailer Error: {$mail->ErrorInfo}";
+    //     }
+    // }
 
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $firstName = $_POST['firstName'];
-        $lastName = $_POST['lastName'];
-        $email = $_POST['email'];
-        $mobile = $_POST['mobile'];
-        $message = $_POST['message'];
+    // if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    //     $firstName = $_POST['firstName'];
+    //     $lastName = $_POST['lastName'];
+    //     $email = $_POST['email'];
+    //     $mobile = $_POST['mobile'];
+    //     $message = $_POST['message'];
 
-        // Call the sendEmail function
-        sendEmail($firstName, $lastName, $email, $mobile, "Contact Form Submission", $message);
+    //     // Call the sendEmail function
+    //     sendEmail($firstName, $lastName, $email, $mobile, "Contact Form Submission", $message);
 
+    //     echo "<div class='container'><p>Thank you, $firstName! Your message has been sent.</p></div>";
+    // }
+
+<?php
+
+require 'vendor/autoload.php';
+
+use Symfony\Component\Mailer\Transport;
+use Symfony\Component\Mailer\Mailer;
+use Symfony\Component\Mime\Email;
+use Symfony\Component\HttpFoundation\Request;
+
+$logOutput = "";
+
+function logMessage($message)
+{
+    global $logOutput;
+    $timestamp = date('Y-m-d H:i:s');
+    $logOutput .= "<p><strong>[$timestamp]</strong> $message</p>";
+}
+
+function sendEmail($firstName, $lastName, $email, $contactNo, $subject, $message)
+{
+    logMessage("Preparing to send email from $email ($firstName $lastName)");
+
+    $dsn = 'smtp://kmsr2425@gmail.com:your_app_password@smtp.gmail.com:587';
+    logMessage("Using DSN: smtp://your_email@gmail.com:***@smtp.gmail.com:587");
+
+    $transport = Transport::fromDsn($dsn);
+    $mailer = new Mailer($transport);
+
+    $htmlBody = "
+        <html>
+        <head><title>$subject</title></head>
+        <body>
+            <p><strong>First Name:</strong> $firstName</p>
+            <p><strong>Last Name:</strong> $lastName</p>
+            <p><strong>Email:</strong> $email</p>
+            <p><strong>Contact No:</strong> $contactNo</p>
+            <p><strong>Message:</strong></p>
+            <p>$message</p>
+        </body>
+        </html>
+    ";
+
+    logMessage("Email body prepared.");
+
+    $emailMessage = (new Email())
+        ->from('your_email@gmail.com')
+        ->replyTo($email)
+        ->to('your_target_email@example.com')
+        ->subject($subject)
+        ->html($htmlBody);
+
+    try {
+        $mailer->send($emailMessage);
+        logMessage("✅ Email sent successfully to your_target_email@example.com");
         echo "<div class='container'><p>Thank you, $firstName! Your message has been sent.</p></div>";
+    } catch (\Exception $e) {
+        logMessage("❌ Failed to send email: " . $e->getMessage());
+        echo "<div class='container'><p>Failed to send email. Error: {$e->getMessage()}</p></div>";
     }
+}
+
+$request = Request::createFromGlobals();
+
+if ($request->isMethod('POST')) {
+    $firstName = $request->request->get('firstName');
+    $lastName = $request->request->get('lastName');
+    $email = $request->request->get('email');
+    $contactNo = $request->request->get('mobile');
+    $message = $request->request->get('message');
+
+    logMessage("Received POST data: firstName=$firstName, lastName=$lastName, email=$email, mobile=$contactNo");
+
+    sendEmail($firstName, $lastName, $email, $contactNo, "Contact Form Submission", $message);
+
+    echo "<hr><div class='log-output'><h3>Debug Log:</h3>$logOutput</div>";
+}
+?>
     ?>
 </body>
 
