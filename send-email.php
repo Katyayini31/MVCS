@@ -162,6 +162,8 @@
     //     echo "<div class='container'><p>Thank you, $firstName! Your message has been sent.</p></div>";
     // }
 
+<?php
+
 require 'vendor/autoload.php';
 
 use Symfony\Component\Mailer\Transport;
@@ -169,55 +171,74 @@ use Symfony\Component\Mailer\Mailer;
 use Symfony\Component\Mime\Email;
 use Symfony\Component\HttpFoundation\Request;
 
-// Function to send email
-function sendEmail($firstName, $lastName, $email, $contactNo, $subject, $message)
+$logOutput = "";
+
+function logMessage($message)
 {
-    // Configure the transport (Gmail SMTP)
-    $dsn = 'smtp://kmsr2425@gmail.com:your_app_password@smtp.gmail.com:587';
-    $transport = Transport::fromDsn($dsn);
-    $mailer = new Mailer($transport);
-
-    // Create the email
-    $emailMessage = (new Email())
-        ->from($email)
-        ->to('your_email@gmail.com') // Replace with your receiving address
-        ->subject($subject)
-        ->html("
-            <html>
-            <head><title>$subject</title></head>
-            <body>
-                <p><strong>First Name:</strong> $firstName</p>
-                <p><strong>Last Name:</strong> $lastName</p>
-                <p><strong>Email:</strong> $email</p>
-                <p><strong>Contact No:</strong> $contactNo</p>
-                <p><strong>Message:</strong></p>
-                <p>$message</p>
-            </body>
-            </html>
-        ");
-
-    // Send the email
-    $mailer->send($emailMessage);
+    global $logOutput;
+    $timestamp = date('Y-m-d H:i:s');
+    $logOutput .= "<p><strong>[$timestamp]</strong> $message</p>";
 }
 
-// Handle POST request
+function sendEmail($firstName, $lastName, $email, $contactNo, $subject, $message)
+{
+    logMessage("Preparing to send email from $email ($firstName $lastName)");
+
+    $dsn = 'smtp://kmsr2425@gmail.com:your_app_password@smtp.gmail.com:587';
+    logMessage("Using DSN: smtp://your_email@gmail.com:***@smtp.gmail.com:587");
+
+    $transport = Transport::fromDsn($dsn);
+    $mailer = new Mailer($transport);
+
+    $htmlBody = "
+        <html>
+        <head><title>$subject</title></head>
+        <body>
+            <p><strong>First Name:</strong> $firstName</p>
+            <p><strong>Last Name:</strong> $lastName</p>
+            <p><strong>Email:</strong> $email</p>
+            <p><strong>Contact No:</strong> $contactNo</p>
+            <p><strong>Message:</strong></p>
+            <p>$message</p>
+        </body>
+        </html>
+    ";
+
+    logMessage("Email body prepared.");
+
+    $emailMessage = (new Email())
+        ->from('your_email@gmail.com')
+        ->replyTo($email)
+        ->to('your_target_email@example.com')
+        ->subject($subject)
+        ->html($htmlBody);
+
+    try {
+        $mailer->send($emailMessage);
+        logMessage("✅ Email sent successfully to your_target_email@example.com");
+        echo "<div class='container'><p>Thank you, $firstName! Your message has been sent.</p></div>";
+    } catch (\Exception $e) {
+        logMessage("❌ Failed to send email: " . $e->getMessage());
+        echo "<div class='container'><p>Failed to send email. Error: {$e->getMessage()}</p></div>";
+    }
+}
+
 $request = Request::createFromGlobals();
 
 if ($request->isMethod('POST')) {
-    $firstName = $request->request->get('firstName');
-    $lastName = $request->request->get('lastName');
-    $email = $request->request->get('email');
-    $contactNo = $request->request->get('mobile');
-    $message = $request->request->get('message');
+    $firstName = $request->request->get('firstName');
+    $lastName = $request->request->get('lastName');
+    $email = $request->request->get('email');
+    $contactNo = $request->request->get('mobile');
+    $message = $request->request->get('message');
 
-    try {
-        sendEmail($firstName, $lastName, $email, $contactNo, "Contact Form Submission", $message);
-        echo "<div class='container'><p>Thank you, $firstName! Your message has been sent.</p></div>";
-    } catch (\Exception $e) {
-        echo "<div class='container'><p>Failed to send email. Error: {$e->getMessage()}</p></div>";
-    }
+    logMessage("Received POST data: firstName=$firstName, lastName=$lastName, email=$email, mobile=$contactNo");
+
+    sendEmail($firstName, $lastName, $email, $contactNo, "Contact Form Submission", $message);
+
+    echo "<hr><div class='log-output'><h3>Debug Log:</h3>$logOutput</div>";
 }
-
+?>
     ?>
 </body>
 
