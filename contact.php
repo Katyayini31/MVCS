@@ -1,4 +1,8 @@
-<?php include 'head.php' ?>
+<?php
+session_start();
+include 'head.php';
+?>
+
 	<body data-scrolling-animations="true">
         <div class="sp-body">
 			
@@ -46,8 +50,12 @@
 						<h4>SEND us a message</h4>
                         
 				<?php
-                    if(isset($_GET['response1'])){	
-                    @$response1 = $_GET['response1'];
+                                  if (isset($_SESSION['response1'])) {
+                                    $response1 = $_SESSION['response1'];
+                                    unset($_SESSION['response1']); // Clear it after displaying
+
+                   // if(isset($_GET['response1'])){	
+                   // @$response1 = $_GET['response1'];
                 ?>
                 <div class="col-md-12" >
 			         <div class="alert alert-success display" id="msg">
